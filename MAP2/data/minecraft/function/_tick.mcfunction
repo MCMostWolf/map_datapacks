@@ -1,6 +1,7 @@
 #初始化
 execute as @a[tag=!loaded] run function minecraft:default/_default
 #Tick
+function area:_tick
 function tool:_tick
 function core:_tick
 function item:_tick

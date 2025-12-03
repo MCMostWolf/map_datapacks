@@ -1,3 +1,6 @@
+#function area:nightmare_tower/_player
+return fail
+#
 scoreboard players operation #temp area = @s area 
 execute unless score @s area_title matches -200.. run function area:_area/score
 execute unless score #temp area = @s area run function area:_area/_load

@@ -1,1 +1,0 @@
-execute if score @s area_title matches 1.. run function area:sculkvale_den/title

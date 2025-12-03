@@ -3,6 +3,7 @@ tellraw @a [{"text":"[调试]：","color":"yellow","bold": true},{"text":" 已�
 function minecraft:scoreboard
 #单独
 function effects:_load
+function area:_load
 #加载区块
 function minecraft:forceload
 ##Debug
