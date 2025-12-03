@@ -1,0 +1,1 @@
+execute if score @s skill matches 1 run function creature:hostial/floral_slime/ability/special_attack

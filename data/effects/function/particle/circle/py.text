@@ -1,0 +1,28 @@
+import math
+
+commands = []
+particle = "minecraft:end_rod"
+count = 90
+speed = 0.2
+
+for i in range(count):
+    # 计算角度（弧度）
+    angle = 2 * math.pi * i / count
+    
+    # 圆环（半径1）坐标
+    x = 1.2 * math.cos(angle)
+    z = 1.2 * math.sin(angle)
+    y = 0  # 假设在水平面上
+    
+    # 扩散圆环（半径5）坐标
+    x1 = 5 * math.cos(angle)
+    z1 = 5 * math.sin(angle)
+    y1 = 0  # 保持在同一水平面
+    
+    # 构建命令
+    cmd = f"particle {particle} ~{x:.3f} ~{y:.3f} ~{z:.3f} {x1:.3f} {y1:.3f} {z1:.3f} {speed} 0 force"
+    commands.append(cmd)
+
+# 打印所有命令
+for cmd in commands:
+    print(cmd)

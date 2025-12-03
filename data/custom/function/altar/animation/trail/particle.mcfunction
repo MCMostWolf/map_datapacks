@@ -1,0 +1,1 @@
+$particle minecraft:item{item:{id:"$(id)",components:$(components)}} ^ ^ ^ 0 -10000000 0 1000000 0 normal

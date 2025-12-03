@@ -1,0 +1,54 @@
+{
+  "carvers": [],
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 1000,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "particle": {
+        "options": {
+          "type": "minecraft:sculk_charge_pop"
+        },
+        "probability": 0.0013
+    },
+    "dry_foliage_color": 526345,
+    "foliage_color": 2891,
+    "grass_color": 2891,
+    "water_color": 2631238,
+    "water_fog_color": 789277,
+    "sky_color": 3488338,
+    "fog_color": 3027004,
+    "additions_sound": {
+      "sound": {
+        "sound_id": "minecraft:ambient.soul_sand_valley.additions"
+      },
+      "tick_chance": 0.014
+    },
+    "mood_sound": { 
+      "sound": {
+        "sound_id":"minecraft:block.sculk_catalyst.bloom",
+        "range": 2
+      },
+      "tick_delay": 20,
+      "block_search_extent": 7,
+      "offset": 1
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.sculkvale_den"
+          },
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.5
+  }
+}

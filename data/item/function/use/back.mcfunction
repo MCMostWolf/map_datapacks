@@ -1,0 +1,1 @@
+$data modify entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item set from storage minecraft:data_$(uid) item.using.data

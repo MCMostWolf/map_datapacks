@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": ""
+                }
+            },
+            "!minecraft:attribute_modifiers": {},
+            "enchantments": {}
+        }
+    }
+]

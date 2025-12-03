@@ -1,0 +1,48 @@
+{
+  "carvers": [],
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 1000,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "particle": {
+        "options": {
+          "type": "minecraft:lava"
+        },
+        "probability": 0.0007
+    },
+    "dry_foliage_color": 3091237,
+    "foliage_color": 14911488,
+    "grass_color": 10648126,
+    "water_color": 12153344,
+    "water_fog_color": 3735644,
+    "sky_color": 9207139,
+    "fog_color": 6445127,
+    "additions_sound": {
+      "sound": {
+        "sound_id": "minecraft:ambient.nether_wastes.additions"
+      },
+      "tick_chance": 0.014
+    },
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.basalt_deltas.loop"
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.blazing_mire"
+          },
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.5
+  }
+}

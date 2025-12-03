@@ -1,0 +1,1 @@
+function creature:creature_spawner/place with storage minecraft:tool creature_spawner

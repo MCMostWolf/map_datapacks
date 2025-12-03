@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:grass",
+    "#minecraft:vines",
+    "minecraft:spore_blossom",
+    "minecraft:nether_wart",
+    "minecraft:small_dripleaf",
+    "minecraft:hanging_roots",
+    "minecraft:glow_lichen",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:sugar_cane"
+  ]
+}

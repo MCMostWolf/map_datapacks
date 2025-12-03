@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "void_compass",
+            "cd": 800
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:recovery_compass"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Void Compass ☲|₪",
+        "color": "#3c0053",
+        "shadow_color": -5898009
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 混乱12格内的敌人"
+            }
+          ]
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Confuses enemies within a 12-block radius"
+            }
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 40s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

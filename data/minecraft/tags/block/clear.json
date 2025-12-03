@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs",
+    "minecraft:jungle_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:oak_leaves",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:glow_lichen",
+    "minecraft:bubble_column",
+    "minecraft:acacia_leaves",
+    "minecraft:vine",
+    "minecraft:bamboo",
+    "minecraft:moss_carpet",
+    "minecraft:mangrove_roots",
+    "minecraft:mangrove_propagule"
+  ]
+}

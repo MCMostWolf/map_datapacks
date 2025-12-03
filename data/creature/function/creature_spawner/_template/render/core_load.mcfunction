@@ -1,0 +1,2 @@
+$item replace entity @s contents with minecraft:pig_spawn_egg[minecraft:custom_model_data={strings:["creature.hostial.$(spawn_creature_id)"]},minecraft:max_stack_size=1]
+data modify entity @s transformation.scale set value [0.7,0.7,0.7]

@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "eye_of_monument",
+            "cd": 300
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:ender_eye"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Eye of Monument ☲|₪",
+        "color": "#f158ff",
+        "shadow_color": -7926867
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 耗时10s搜寻纪念碑并传送到纪念碑"
+            }
+          ]
+        },
+        {
+          "text": "在此期间产生移动会中断该法器的使用",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Takes 10 seconds to search for the monument and teleport to its location"
+            }
+          ]
+        },
+        {
+          "text": "Movement during this period will interrupt the use of this artifact",
+          "color": "blue",
+          "italic": false
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 15s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

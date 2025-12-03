@@ -1,0 +1,9 @@
+function minecraft:scoreboard/core
+function minecraft:scoreboard/effects
+function minecraft:scoreboard/condition
+function minecraft:scoreboard/custom
+function minecraft:scoreboard/creature
+function minecraft:scoreboard/math
+function minecraft:scoreboard/item
+function minecraft:scoreboard/dummy
+function minecraft:scoreboard/area

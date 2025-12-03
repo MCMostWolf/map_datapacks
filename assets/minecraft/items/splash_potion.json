@@ -1,0 +1,60 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "prop.large_absorption_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/large_absorption_potion"
+                }
+            },
+            {
+                "when": "prop.medium_absorption_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/medium_absorption_potion"
+                }
+            },
+            {
+                "when": "prop.small_absorption_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/small_absorption_potion"
+                }
+            },
+            {
+                "when": "prop.large_healing_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/large_healing_potion"
+                }
+            },
+            {
+                "when": "prop.medium_healing_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/medium_healing_potion"
+                }
+            },
+            {
+                "when": "prop.small_healing_potion",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/prop/small_healing_potion"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/splash_potion",
+            "tints": [
+                {
+                    "type": "minecraft:potion",
+                    "default": -13083194
+                }
+            ]
+        }
+    }
+}

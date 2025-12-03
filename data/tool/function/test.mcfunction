@@ -1,0 +1,1 @@
+$tellraw @a [{"text":"[调试]：","color":"yellow","bold": true},{"text":" 输出值为$(temp)","color":"white","bold": false}]

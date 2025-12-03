@@ -1,0 +1,9 @@
+execute if entity @s[tag=effects.talking_text] run function effects:screen/talking_text/tick
+execute if entity @s[tag=effects.text] run function effects:screen/text/tick
+execute if entity @s[tag=effects.shaking_text] run function effects:screen/shaking_text/tick
+execute if entity @s[tag=effects.moving_text] run function effects:screen/moving_text/tick
+execute if entity @s[tag=effects.close_text] run function effects:screen/close_text/tick
+execute if score @s effects = @s effects_time run tag @s add closing
+execute if score @s effects = @s effects_time run data modify entity @s transformation.scale.[0] set value 0
+execute if score @s effects = @s effects_time run data modify entity @s interpolation_duration set value 4
+execute if score @s effects >= @s effects_time_kill run function effects:screen/clear

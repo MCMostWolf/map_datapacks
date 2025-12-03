@@ -1,0 +1,48 @@
+{
+  "carvers": [],
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "particle": {
+        "options": {
+          "type": "minecraft:end_rod"
+        },
+        "probability": 0.001
+    },
+    "dry_foliage_color": 10528412,
+    "foliage_color": 8883574,
+    "grass_color": 11582378,
+    "water_color": 16777215,
+    "water_fog_color": 5597568,
+    "sky_color": 12171705,
+    "fog_color": 8484720,
+    "mood_sound": { 
+      "sound": {
+        "sound_id": "minecraft:block.creaking_heart.idle",
+        "range": 5
+      },
+      "tick_delay": 180,
+      "block_search_extent": 7,
+      "offset": 1
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.the_pale_nest.start"
+          },
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.3
+  }
+}

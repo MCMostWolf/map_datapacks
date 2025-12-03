@@ -1,0 +1,2 @@
+function condition:player_stats/input_keybind
+function condition:player_stats/playmode

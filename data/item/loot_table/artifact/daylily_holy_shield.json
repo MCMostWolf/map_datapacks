@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "daylily_holy_shield",
+            "cd": 800
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:honeycomb"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Daylily Holy Shield ☲|₪",
+        "color": "#ffea75",
+        "shadow_color": -5607680
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 在接下来的20s内获得\"永恒的\"伤害吸收效果"
+            }
+          ]
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Grants permanent \"Eternal\" Absorption for 20 seconds"
+            }
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 40s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+tag @a[tag=core.item_loading] remove core.item_loading

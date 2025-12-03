@@ -1,0 +1,151 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.credits.name",
+                                    "color": "#dab7de",
+                                    "shadow_color": -7838069
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.credits.lore",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.credits.credits",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.1"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.3"
+                                            }
+                                        ],
+                                        "color": "#dab7de",
+                                        "shadow_color": -7838069
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.credits.credits",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.4"
+                                            }
+                                        ],
+                                        "color": "#dab7de",
+                                        "shadow_color": -7838069
+                                    },
+                                    {
+                                        "text": "",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "text": "Plants_Stars"
+                                            },
+                                            "\n",
+                                            {
+                                                "text": "Tealido"
+                                            },
+                                            "\n",
+                                            {
+                                                "text": "Tealidu"
+                                            },
+                                            "\n",
+                                            {
+                                                "text": "Tea1ido"
+                                            }
+                                        ],
+                                        "color": "#f9cbff",
+                                        "shadow_color": -4748357,
+                                        "italic": true
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.credits.credits",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.5"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "text": "我们正在测试中~"
+                                            }
+                                        ],
+                                        "color": "#dab7de",
+                                        "shadow_color": -7838069
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.credits.credits",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.6"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.7"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.credits.text.8"
+                                            }
+                                        ],
+                                        "color": "#dab7de",
+                                        "shadow_color": -7838069
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "vanishing_curse": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

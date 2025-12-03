@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "test_pickaxe2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:melee/test_pickaxe2/using"
+  }
+}

@@ -1,0 +1,1 @@
+$execute positioned 0.0 0.0 0.0 positioned ^ ^ ^$(speed) summon marker run function tool:quick_cmd/entity/function/motion     

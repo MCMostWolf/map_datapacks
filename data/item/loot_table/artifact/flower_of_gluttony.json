@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "flower_of_gluttony",
+            "cd": 500
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:torchflower"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Flower of Gluttony ☲|₪",
+        "color": "#d45500",
+        "shadow_color": -9955328
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 对周围9格的敌人造成缓慢与凋零效果并治疗自身"
+            }
+          ]
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Inflicts Slowness and Wither on enemies within a 9-block radius and heals self"
+            }
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 25s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

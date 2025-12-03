@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^0.25 run function custom:creaking_heart/place

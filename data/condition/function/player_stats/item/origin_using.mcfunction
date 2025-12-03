@@ -1,0 +1,1 @@
+$return run function condition:player_stats/item/origin_test with storage minecraft:data_$(uid) item.using

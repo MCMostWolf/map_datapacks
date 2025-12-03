@@ -1,0 +1,1 @@
+$data modify storage minecraft:player player.data_$(uid) from storage minecraft:temp_player player

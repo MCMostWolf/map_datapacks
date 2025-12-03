@@ -1,0 +1,6 @@
+#particle minecraft:falling_obsidian_tear ^ ^-0.5 ^0.8 0 0 0 0 0 force @p[tag=atf_user]
+particle minecraft:dust_color_transition{from_color:9902079,scale:1,to_color:2949248} ^ ^-1.6 ^1.3 0 0 0 0 0 force @p[tag=atf_user]
+particle minecraft:dust_color_transition{from_color:9902079,scale:0.6,to_color:2949248} ^ ^-1.2 ^-0.5 0 0 0 0 0 force @p[tag=atf_user]
+particle minecraft:dust_color_transition{from_color:9902079,scale:0.8,to_color:2949248} ^ ^-0.5 ^0.8 0 0 0 0 0 force @p[tag=atf_user]
+particle minecraft:end_rod ^ ^-0.5 ^0.8 0 -10000000 0 100000 0 force @p[tag=atf_user]
+particle minecraft:end_rod ^ ^-1.3 ^-0.4 0 -1 0 0.2 0 force @p[tag=atf_user]

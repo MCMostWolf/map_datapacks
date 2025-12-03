@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot creature:drop/$(creature_id)

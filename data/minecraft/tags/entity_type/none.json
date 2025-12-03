@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:impact_projectiles",
+    "#minecraft:minecarts",
+    "#minecraft:boat",
+    "#minecraft:markers",
+    "minecraft:area_effect_cloud",
+    "minecraft:item",
+    "minecraft:armor_stand",
+    "minecraft:fishing_bobber",
+    "minecraft:leash_knot",
+    "minecraft:painting",
+    "minecraft:item_frame",
+    "minecraft:ender_pearl",
+    "minecraft:experience_bottle",
+    "minecraft:lingering_potion",
+    "minecraft:splash_potion",
+    "minecraft:experience_orb",
+    "minecraft:tnt",
+    "minecraft:firework_rocket",
+    "minecraft:shulker_bullet",
+    "minecraft:llama_spit",
+    "minecraft:falling_block",
+    "minecraft:evoker_fangs",
+    "minecraft:lightning_bolt",
+    "minecraft:end_crystal"
+  ]
+}

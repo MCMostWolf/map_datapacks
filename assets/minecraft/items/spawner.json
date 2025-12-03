@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "block.creature_spawner.vanilla",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:block/creature_spawner/vanilla"
+                }
+            },
+            {
+                "when": "block.creature_spawner.default_active",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:block/creature_spawner/default_active"
+                }
+            },
+            {
+                "when": "block.creature_spawner.default",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:block/creature_spawner/default"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/tinted_glass"
+        }
+    }
+}

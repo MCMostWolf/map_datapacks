@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/_all",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:can_break": {
+                  "blocks": "#minecraft:_destroy"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "Qbility": true
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:luck",
+                  "id": "minecraft:mainhand",
+                  "amount": {
+                    "min": 0,
+                    "max": 150
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:luck",
+                  "id": "minecraft:offhand",
+                  "amount": {
+                    "min": 0,
+                    "max": 150
+                  },
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:luck",
+                    "id": "minecraft:offhand_1",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "offhand",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:luck",
+                    "id": "minecraft:mainhand_1",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute if items entity @s hotbar.* #item unless items entity @s hotbar.* #item[custom_data~{loaded:1}] run return run say hotbar
+execute if items entity @s inventory.* #item unless items entity @s inventory.* #item[custom_data~{loaded:1}] run return run say inventory

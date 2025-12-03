@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+                "function": "minecraft:set_name",
+                "name": [
+                    {
+                        "translate": "book.reminder.name",
+                        "color": "#ffe1a9",
+                        "shadow_color": -3369379
+                    }
+                ],
+                "target": "item_name"
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "book.reminder.lore",
+                        "color": "gray",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            },
+            {
+                "function": "minecraft:set_written_book_pages",
+                "mode": "replace_all",
+                "pages": [
+                    [
+                        {
+                            "translate": "book.reminder.reminder",
+                            "extra": [
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.1"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.2"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.3"
+                                }
+                            ],
+                            "color": "#ffe1a9",
+                            "shadow_color": -3369379   
+                        }
+                    ],
+                    [
+                        {
+                            "translate": "book.reminder.reminder",
+                            "extra": [
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.4"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.5"
+                                }
+                            ],
+                            "color": "#ffe1a9",
+                            "shadow_color": -3369379   
+                        }
+                    ],
+                    [
+                        {
+                            "translate": "book.reminder.reminder",
+                            "extra": [
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.6"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.7"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.8"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.reminder.text.9"
+                                }
+                            ],
+                            "color": "#ffe1a9",
+                            "shadow_color": -3369379   
+                        }
+                    ]
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:written_book_content": false
+                }
+            },
+            {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {"vanishing_curse": 1}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

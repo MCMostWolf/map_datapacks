@@ -1,0 +1,78 @@
+{
+    "description": {
+      "text":""
+    },
+    "supported_items": "minecraft:command_block",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "tags": [
+                    {
+                      "id": "minecraft:bypasses_invul",
+                      "expected": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "invul"
+              },
+              "range": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_melee",
+                "expected": true
+              }
+            ],
+            "source_entity": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "unattack": true
+                }
+              }
+            }
+          }
+        },
+        "effect": {}
+      }
+    ]
+    }
+  }

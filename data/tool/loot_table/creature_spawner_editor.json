@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:consumable": {
+                    "animation": "bow",
+                    "consume_seconds": 0.001,
+                    "has_consume_particles": false,
+                    "sound": {
+                        "sound_id": ""
+                    }
+                },
+                "minecraft:item_model": "minecraft:netherite_shovel"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "tool.creature_spawner_editor": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                    "text": "--*- Tealido 刷怪笼操控法杖 -*--",
+                    "color": "light_purple"
+                }
+              ],
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "tool:creature_spawner_editor": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+{"text": "--*----在任意手时----*--","color": "gray","italic": false},
+{"keybind":"key.sprint","extra":[{"text":" + "},{"keybind":"key.use"},{"text":" : "},{"text":"瞄准最近刷怪笼","color":"green"}],"color":"gray","italic": false},
+{"keybind":"key.sprint","extra":[{"text":" + "},{"keybind":"key.sneak"},{"text":" + "},{"keybind":"key.use"},{"text":" : "},{"text":"在脚下放置刷怪笼","color":"green"}],"color":"gray","italic": false},
+"",
+{"text": "--*----在主手-且副手为空时----*--","color": "gray","italic": false},
+{"keybind":"key.use","extra":[{"text":" : "},{"text":"打开数据编辑器界面","color":"gold"}],"color":"gray","italic": false},
+{"keybind":"key.sneak","extra":[{"text":" + "},{"keybind":"key.use"},{"text":" : "},{"text":"获取刷怪笼快捷方式","color":"gold"}],"color":"gray","italic": false},
+"",
+{"text": "--*----在主手-且副手持有物品时----*--","color": "gray","italic": false},
+{"keybind":"key.use","extra":[{"text":" : "},{"text":"用副手物品替换最近刷怪笼外壳渲染","color":"light_purple"}],"color":"gray","italic": false},
+{"keybind":"key.sneak","extra":[{"text":" + "},{"keybind":"key.use"},{"text":" : "},{"text":"用副手物品替换最近刷怪笼核心渲染","color":"light_purple"}],"color":"gray","italic": false},
+"",
+{"text": "--*----在副手时----*--","color": "gray","italic": false},
+{"keybind":"key.use","extra":[{"text":" : "},{"text":"将最近刷怪笼数据导入编辑器","color":"aqua"}],"color":"gray","italic": false},
+{"keybind":"key.sneak","extra":[{"text":" + "},{"keybind":"key.use"},{"text":" : "},{"text":"将数据传入最近刷怪笼","color":"aqua"}],"color":"gray","italic": false},
+""
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

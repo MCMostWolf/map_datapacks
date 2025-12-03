@@ -1,0 +1,2 @@
+data modify entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:lore" prepend value {translate:"item.shulker_box.lore.more",with:["0"],color:"dark_red"}
+execute store result entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:lore".[{translate:"item.shulker_box.lore.more"}].with.[0] int 1 run execute if data entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:custom_data".shulker_bundle.[]

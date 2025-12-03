@@ -1,0 +1,2 @@
+execute unless entity @s[tag=condition.playing] if entity @s[gamemode=!spectator,gamemode=!creative,tag=!condition.unchange] run function condition:player_stats/playmode/playing
+execute unless entity @s[tag=condition.watching] if entity @s[gamemode=!adventure,gamemode=!survival,tag=!condition.unchange] run function condition:player_stats/playmode/wathcing

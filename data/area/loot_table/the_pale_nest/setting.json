@@ -1,0 +1,323 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.setting.name",
+                                    "color": "#7575ff",
+                                    "shadow_color": -14145945
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.setting.lore",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.setting.setting",
+                                        "color": "#7575ff",
+                                        "shadow_color": -14145945
+                                    },
+                                    "\n\n",
+                                    {
+                                        "translate": "book.setting.difficulty",
+                                        "extra": [
+                                            "\n",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.difficulty.easy"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#a8ff98",
+                                                "shadow_color": -11696309,
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.difficulty.easy.lore",
+                                                            "color": "#a8ff98",
+                                                            "shadow_color": -11696309
+                                                        }
+                                                    ]
+                                                },
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 1"
+                                                }
+                                            },
+                                            "   ",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.difficulty.normal"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#ffca58",
+                                                "shadow_color": -6652115,
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.difficulty.normal.lore",
+                                                            "color": "#ffca58",
+                                                            "shadow_color": -6652115
+                                                        }
+                                                    ]
+                                                },
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 2"
+                                                }
+                                            },
+                                            "   ",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.difficulty.hard"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#b41b1b",
+                                                "shadow_color": -11993088,
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.difficulty.hard.lore",
+                                                            "color": "#b41b1b",
+                                                            "shadow_color": -11993088
+                                                        }
+                                                    ]
+                                                },
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 3"
+                                                }
+                                            },
+                                            "   ",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "book.setting.difficulty.unplayable"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#6a00c2",
+                                                "shadow_color": -13762480,
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.difficulty.unplayable.lore",
+                                                            "color": "#6a00c2",
+                                                            "shadow_color": -13762480
+                                                        }
+                                                    ]
+                                                },
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 4"
+                                                }
+                                            }
+                                        ],
+                                        "color": "#7575ff",
+                                        "shadow_color": -14145945
+                                    },
+                                    "\n\n",
+                                    {
+                                        "translate": "book.setting.list",
+                                        "extra": [
+                                        "\n",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "book.setting.list.death_count"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.default",
+                                                            "color": "#7f5493",
+                                                            "shadow_color": -12902077
+                                                        }
+                                                    ]
+                                                },
+                                                "color": "#7f5493",
+                                                "shadow_color": -12902077,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 5"
+                                                }
+                                            },
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "book.setting.list.health"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#ff7070",
+                                                "shadow_color": -7000787,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 6"
+                                                }
+                                            }
+                                        ],
+                                        "color": "#7575ff",
+                                        "shadow_color": -14145945
+                                    },
+                                    "\n\n",
+                                    {
+                                        "translate": "book.setting.pvp",
+                                        "extra": [
+                                        "\n",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.on"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#67ff3d",
+                                                "shadow_color": -13267177,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/gamerule minecraft:pvp true"
+                                                }
+                                            },
+                                            "    ",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.off"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.default",
+                                                            "color": "#ff3333",
+                                                            "shadow_color": -8120810
+                                                        }
+                                                    ]
+                                                },
+                                                "color": "#ff3333",
+                                                "shadow_color": -8120810,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/gamerule minecraft:pvp false"
+                                                }
+                                            }
+                                        ],
+                                        "color": "#7575ff",
+                                        "shadow_color": -14145945
+                                    },
+                                    "\n\n",
+                                    {
+                                        "translate": "book.setting.glowing",
+                                        "extra": [
+                                        "\n",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.on"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "color": "#67ff3d",
+                                                "shadow_color": -13267177,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 9"
+                                                }
+                                            },
+                                            "    ",
+                                            {
+                                                "text": "[",
+                                                "extra": [
+                                                    {
+                                                        "translate": "options.off"
+                                                    },
+                                                    "]"
+                                                ],
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "book.setting.default",
+                                                            "color": "#ff3333",
+                                                            "shadow_color": -8120810
+                                                        }
+                                                    ]
+                                                },
+                                                "color": "#ff3333",
+                                                "shadow_color": -8120810,
+                                                "click_event": {
+                                                    "action": "run_command",
+                                                    "command": "/trigger gamerule_setting set 10"
+                                                }
+                                            }
+                                        ],
+                                        "color": "#7575ff",
+                                        "shadow_color": -14145945
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "vanishing_curse": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/_handheld",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "type": "melee"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

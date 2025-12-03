@@ -1,0 +1,3 @@
+execute on vehicle on passengers if entity @s[type=minecraft:interaction] if function condition:entity_stats/has_traget run function custom:item_entity/default/interact
+execute on vehicle on passengers if entity @s[type=minecraft:interaction] if function condition:entity_stats/has_attacker run function custom:item_entity/default/attack
+#execute if predicate condition:tick/10t unless entity @s[tag=interact_traget.empty] if entity @a[distance=..7,tag=condition.playing] positioned ~ ~0.5 ~ run particle minecraft:wax_off ~ ~ ~ 0.3 0.3 0.3 0.05 3 normal

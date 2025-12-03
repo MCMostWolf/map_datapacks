@@ -1,0 +1,1 @@
+$data modify storage minecraft:tool creature_spawner set from storage minecraft:tool creature_spawner_$(uid)

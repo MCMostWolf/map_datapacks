@@ -1,0 +1,82 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.nest_notes1.name",
+                                    "color": "white"
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.nest_notes1.lore",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.nest_notes1.text.1_1",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nest_notes1.text.1_2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nest_notes1.text.1_3"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.nest_notes1.text.2_1",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nest_notes1.text.2_2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nest_notes1.text.2_3"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nest_notes1.text.2_4"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "heart_of_conduit",
+            "cd": 400
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:heart_of_the_sea"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Heart of Conduit ☲|₪",
+        "color": "#75d3ff",
+        "shadow_color": -16756074
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 为自身提供15s潮涌能量效果"
+            }
+          ]
+        },        
+        {
+          "text": "并使周围16格内的敌人发光",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Effect self Conduit Power for 15 seconds"
+            }
+          ]
+        },        
+        {
+          "text": "And causes enemies within a 16-block radius to glow",
+          "color": "blue",
+          "italic": false
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 20s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

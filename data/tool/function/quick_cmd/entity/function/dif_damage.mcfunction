@@ -1,0 +1,1 @@
+$damage @s $(damage) $(damage_cmd)

@@ -1,0 +1,22 @@
+{
+    "music.sculkvale_den":{"sounds":[{"name":"music/game/stand_tall","volume":1.0,"stream":true}]},
+    "music.amethyst_worksite":{"sounds":[{"name":"music/game/broken_clocks","volume":1.0,"stream":true}]},
+    "music.blazing_mire":{"sounds":[{"name":"music/game/nether/soulsand_valley/so_below","volume":1.0,"stream":true}]},
+    "music.the_pale_nest":{"sounds":[{"name":"music/game/os_piano","volume":1.0,"stream":true}]},
+    "music.the_pale_nest.start":{"sounds":[{"name":"music/game/eld_unknown","volume":1.0,"stream":true}]},
+    "music.crying_corrosion_lands":{"sounds":[{"name":"music/game/nether/nether_wastes/rubedo","volume":1.0,"stream":true}]},
+    "music.molten_cave":{"sounds":[{"name":"music/game/nether/crimson_forest/chrysopoeia","volume":1.0,"stream":true}]},
+    "music.verdant_woods":{"sounds":[{"name":"music/game/lilypad","volume":1.0,"stream":true}]},
+    "music.undertower":{"sounds":[{"name":"music/game/nether/ballad_of_the_cats","volume":1.0,"stream":true}]},
+    "rc4.redstart":{"sounds":[{"name":"rc4sounds/redstart","volume":1.0,"stream":true}]},
+    "rc4.simulacrum":{"sounds":[{"name":"rc4sounds/simulacrum","volume":1.0,"stream":true}]},
+    "rc4.enter_start":{"sounds":[{"name":"music/game/floating_dream","stream":true}]},
+    "rc4.enter_white":{"sounds":[{"name":"music/game/infinite_amethyst","stream":true}]},
+    "rc4.enter_nexus":{"sounds":[{"name":"music/game/calm1","stream":true}]},
+    "rc4.enter_r1":{"sounds":[{"name":"music/game/water/shuniji","stream":true}]},
+    "rc4.enter_water_temple":{"sounds":[{"name":"music/game/nether/nether_wastes/rubedo","stream":true}]},
+    "rc4.enter_r2":{"sounds":[{"name":"music/game/nether/crimson_forest/chrysopoeia","stream":true}]},
+    "rc4.enter_brown_darkness":{"sounds":[{"name":"records/13","stream":true}]},
+    "rc4.enter_boss_2":{"sounds":[{"name":"records/pigstep","stream":true}]},
+    "rc4.enter_r3":{"sounds":[{"name":"music/game/nether/soulsand_valley/so_below","stream":true}]}
+}

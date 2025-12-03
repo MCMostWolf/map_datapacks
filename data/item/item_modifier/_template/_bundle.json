@@ -1,0 +1,10 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "in_cursor": false,
+            "in_inventory": false,
+            "in_hotbar": true
+        }
+    }
+]

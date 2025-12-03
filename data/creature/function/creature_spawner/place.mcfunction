@@ -1,0 +1,1 @@
+$function creature:creature_spawner/$(creature_spawner_type)/_place

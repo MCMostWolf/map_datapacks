@@ -1,0 +1,48 @@
+{
+  "carvers": [],
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "particle": {
+        "options": {
+          "type": "minecraft:falling_lava"
+        },
+        "probability": 0.0007
+    },
+    "dry_foliage_color": 8417618,
+    "foliage_color": 13344324,
+    "grass_color": 11445332,
+    "water_color": 14543504,
+    "water_fog_color": 10262854,
+    "sky_color": 12171705,
+    "fog_color": 8484720,
+    "mood_sound": { 
+      "sound": {
+        "sound_id":"minecraft:block.pointed_dripstone.drip_lava",
+        "range": 1.3
+      },
+      "tick_delay": 24,
+      "block_search_extent": 12,
+      "offset": 2
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.molten_cave"
+          },
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.5
+  }
+}

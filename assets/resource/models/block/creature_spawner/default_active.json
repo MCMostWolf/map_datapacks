@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top_inner_faces",
+  "textures": {
+    "bottom": "resource:block/creature_spawner/default_bottom",
+    "side": "resource:block/creature_spawner/default_side_active",
+    "top": "resource:block/creature_spawner/default_top_active"
+  }
+}

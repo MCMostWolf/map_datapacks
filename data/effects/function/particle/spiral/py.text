@@ -1,0 +1,43 @@
+import math
+
+def generate_swirl_points(center_x, center_z, radius, rotate_degrees, scale_factor, points_per_swirl=90):
+    commands = []
+    for angle_offset in [0, 90, 180, 270]:  # 四个漩涡的旋转角度偏移
+        for i in range(points_per_swirl):
+            # 计算原始漩涡点坐标 (相对于中心点)
+            angle = 2 * math.pi * i / points_per_swirl
+            spiral_radius = radius * (i / points_per_swirl)  # 半径逐渐增大
+            x = center_x + spiral_radius * math.cos(angle + math.radians(angle_offset))
+            z = center_z + spiral_radius * math.sin(angle + math.radians(angle_offset))
+            
+            # 计算旋转指定角度并缩放后的点坐标
+            rotated_angle = angle + math.radians(angle_offset) + math.radians(rotate_degrees)
+            scaled_radius = spiral_radius * scale_factor
+            rotated_x = center_x + scaled_radius * math.cos(rotated_angle)
+            rotated_z = center_z + scaled_radius * math.sin(rotated_angle)
+            
+            # 计算相对于原来点的偏移量
+            x1 = rotated_x - x
+            z1 = rotated_z - z
+            
+            # 生成粒子命令
+            command = f"particle minecraft:squid_ink ~{x - center_x:.2f} ~ ~{z - center_z:.2f} {x1:.2f} -0.1 {z1:.2f} 0.13 0 force"
+            commands.append(command)
+    return commands
+
+# 参数设置
+center_x = 0    # 中心点X坐标
+center_z = 0    # 中心点Z坐标
+radius = 9     # 最大半径
+rotate_degrees = -90  # 旋转角度
+scale_factor = 0.15  # 缩放因子
+points_per_swirl = 90  # 每个漩涡的点数
+
+# 生成命令
+particle_commands = generate_swirl_points(
+    center_x, center_z, radius, rotate_degrees, scale_factor, points_per_swirl
+)
+
+# 输出所有命令
+for cmd in particle_commands:
+    print(cmd)

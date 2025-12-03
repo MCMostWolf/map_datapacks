@@ -1,0 +1,3 @@
+execute if items entity @s container.* #item unless items entity @s container.* #item[custom_data~{loaded:1}] run return run function player:item/load/container
+execute if items entity @s armor.* #item unless items entity @s armor.* #item[custom_data~{loaded:1}] run return run say armor
+execute if items entity @s player.cursor #item unless items entity @s player.cursor #item[custom_data~{loaded:1}] run return run say cursor

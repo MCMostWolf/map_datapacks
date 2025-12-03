@@ -1,0 +1,28 @@
+{
+  "replace":false,
+  "values": [
+    "minecraft:bone",
+    "minecraft:wheat",
+    "minecraft:feather",
+    "minecraft:slime_ball",
+    "minecraft:spider_eye",
+    "minecraft:fermented_spider_eye",
+    "minecraft:rotten_flesh",
+    "minecraft:rabbit_foot",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:carrot",
+    "minecraft:golden_carrot",
+    "minecraft:apple",
+    "minecraft:golden_apple",
+    "minecraft:melon",
+    "minecraft:glistering_melon_slice",
+    "minecraft:potato",
+    "minecraft:baked_potato",
+    "minecraft:bread",
+    "minecraft:pumpkin_pie",
+    "#minecraft:fishes",
+    "#minecraft:arrows",
+    "#minecraft:ores"
+  ]
+}

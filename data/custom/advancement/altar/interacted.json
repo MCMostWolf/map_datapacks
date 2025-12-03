@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "custom.altar.interacted_": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "altar":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom:altar/_use"
+    }
+}

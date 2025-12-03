@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "tool.creature_spawner_editor.use": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "tool.creature_spawner_editor": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tool:creature_spawner_editor/_use"
+    }
+}

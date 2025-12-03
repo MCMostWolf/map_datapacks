@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "resource:item/prop/medium_healing_potion"
+  }
+}

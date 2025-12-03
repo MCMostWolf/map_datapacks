@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": true
+                },
+                "minecraft:food": {
+                    "can_always_eat": true,
+                    "nutrition": 1,
+                    "saturation": 1
+                },
+                "minecraft:consumable": {
+                    "animation": "eat",
+                    "has_consume_particles": true,
+                    "consume_seconds": 0.75,
+                    "on_consume_effects": [
+                        {
+                            "type": "minecraft:apply_effects",
+                            "effects": [
+                                {
+                                    "id": "minecraft:nausea",
+                                    "amplifier": 100,
+                                    "duration": 140
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "sound": "minecraft:entity.camel.eat"
+                        }
+                    ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

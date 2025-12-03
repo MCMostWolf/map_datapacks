@@ -1,0 +1,9 @@
+{
+  "replace":false,
+  "values": [
+    "#minecraft:bow",
+    "#minecraft:melee",
+    "#minecraft:enchantable/armor",
+    "minecraft:clock"
+  ]
+}

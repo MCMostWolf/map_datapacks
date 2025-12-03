@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "creature.hostial.amethyst_skeleton.mainhand",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:creature/hostial/amethyst_skeleton/mainhand"
+                }
+            },
+            {
+                "when": "creature.hostial.amethyst_skeleton.head",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:creature/hostial/amethyst_skeleton/head"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "item/amethyst_shard"
+        }
+    }
+}

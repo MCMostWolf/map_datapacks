@@ -1,0 +1,2 @@
+execute as @e[tag=tool.creature_spawner_editor.glowing] run data modify entity @s Glowing set value 0b
+execute as @e[tag=tool.creature_spawner_editor.glowing] run tag @s remove tool.creature_spawner_editor.glowing

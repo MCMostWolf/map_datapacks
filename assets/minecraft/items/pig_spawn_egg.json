@@ -1,0 +1,82 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "creature.hostial.floral_slime",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/slime_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.pale_zombie",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/zombie_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.zombie",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/zombie_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.skeleton",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/skeleton_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.creeper",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/creeper_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.spider",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/spider_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.verdure_knight",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bogged_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.chlorophyll_skull",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bogged_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.skeletal_knight",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bogged_spawn_egg"
+                }
+            },
+            {
+                "when": "creature.hostial.floral_remains",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bogged_spawn_egg"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pig_spawn_egg"
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.gamerule.name",
+                                    "color": "#a0cc8d",
+                                    "shadow_color": -12029123
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.gamerule.lore",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.gamerule.gamerule",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.1"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.3"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.4"
+                                            }
+                                        ],
+                                        "color": "#a0cc8d",
+                                        "shadow_color": -12029123
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.gamerule.gamerule",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.5"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.6"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.7"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.gamerule.text.8",
+                                                "color": "#b9e4a7",
+                                                "shadow_color": -9264794
+                                            }
+                                        ],
+                                        "color": "#a0cc8d",
+                                        "shadow_color": -12029123
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "vanishing_curse": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

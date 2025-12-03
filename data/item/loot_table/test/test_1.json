@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod"
+        }
+      ],
+      "functions": [
+        {
+            "function": "minecraft:set_custom_data",
+            "tag": {
+              "id":"test_1",
+              "type":"test"
+            }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a run function condition:player_stats/_player

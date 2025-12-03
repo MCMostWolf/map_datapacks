@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle"
+        }
+      ],
+      "functions": [
+        {
+            "function": "minecraft:set_custom_data",
+            "tag": {
+              "id":"test_3",
+              "type":"test"
+            }
+        }
+      ]
+    }
+  ]
+}

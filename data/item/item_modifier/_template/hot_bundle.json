@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "item:_template/_bundle"
+    },
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "hot_bundle": true,
+            "invul": true,
+            "hot_item": [{},{}],
+            "bundle_item": []
+        }
+    }
+]

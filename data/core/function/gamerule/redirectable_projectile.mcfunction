@@ -1,0 +1,2 @@
+execute if entity @s[tag=condition.redirectable_projectile] if function condition:entity_stats/orign_player run return run function core:gamerule/redirectable_projectile/redirect
+execute if entity @s[tag=!condition.redirected,tag=!condition.redirectable_projectile] unless function condition:entity_stats/orign_player run tag @s add condition.redirectable_projectile

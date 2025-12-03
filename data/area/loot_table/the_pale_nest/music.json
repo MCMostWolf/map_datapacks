@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+                "function": "minecraft:set_name",
+                "name": [
+                    {
+                        "translate": "book.music.name",
+                        "color": "#b7ddd3",
+                        "shadow_color": -10774635
+                    }
+                ],
+                "target": "item_name"
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": "book.music.lore",
+                        "color": "gray",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            },
+            {
+                "function": "minecraft:set_written_book_pages",
+                "mode": "replace_all",
+                "pages": [
+                    [
+                        {
+                            "translate": "book.music.music",
+                            "extra": [
+                                "\n\n",
+                                {
+                                    "translate": "book.music.text.1"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.music.text.2"
+                                },
+                                "\n\n",
+                                {
+                                    "translate": "book.music.text.3"
+                                }
+                            ],
+                            "color": "#b7ddd3",
+                            "shadow_color": -10774635   
+                        }
+                    ]
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:written_book_content": false
+                }
+            },
+            {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {"vanishing_curse": 1}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

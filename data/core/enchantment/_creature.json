@@ -1,0 +1,40 @@
+{
+    "description": {
+      "text":""
+    },
+    "supported_items": "minecraft:command_block",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "core:creature/_tick"
+          }
+        }
+      ],
+      "minecraft:post_attack": [
+        {
+          "affected": "victim",
+          "enchanted": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "core:creature/hurt"
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,1 @@
+execute if score @s area_title matches 1.. run function area:molten_cave/title

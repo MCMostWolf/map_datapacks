@@ -1,0 +1,111 @@
+{
+    "type": "minecraft:confirmation",
+    "after_action": "none",
+    "pause": false,
+    "can_close_with_escape": true,
+    "body": [],
+    "inputs": [
+        {
+            "type": "minecraft:text",
+            "key": "spawn_range",
+            "width": 300,
+            "label": [
+                {
+                    "text": "刷怪范围"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 5
+        },
+        {
+            "type": "minecraft:text",
+            "key": "active_range",
+            "width": 300,
+            "label": [
+                {
+                    "text": "激活范围"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 3
+        },
+        {
+            "type": "minecraft:text",
+            "key": "max_cd",
+            "width": 300,
+            "label": [
+                {
+                    "text": "最大CD"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 3
+        },
+        {
+            "type": "minecraft:text",
+            "key": "min_cd",
+            "width": 300,
+            "label": [
+                {
+                    "text": "最小CD"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 3
+        },
+        {
+            "type": "minecraft:text",
+            "key": "spawn_creature_count",
+            "width": 300,
+            "label": [
+                {
+                    "text": "刷怪数量"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 3
+        },
+        {
+            "type": "minecraft:text",
+            "key": "spawn_creature_id",
+            "width": 300,
+            "label": [
+                {
+                    "text": "刷怪名称"
+                }
+            ],
+            "label_visible": true,
+            "max_length": 40
+        }
+    ],
+    "title": [
+        {
+            "text": "- Special 刷怪笼编辑器 -"
+        }
+    ],
+    "external_title": [
+        {
+            "text": "Test"
+        }
+    ],
+    "no": {
+        "label": [
+            {
+                "text": "放弃更改"
+            }
+        ],
+        "width": 80
+    },
+    "yes": {
+        "label": [
+            {
+                "text": "保存更改"
+            }
+        ],
+        "width": 80,
+        "action": {
+            "type": "dynamic/run_command",
+            "template": "tellraw @a \"$(missing)$(spawn_range)$(spawn_range)\""
+        }
+    }
+}

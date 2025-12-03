@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/melee",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:iron_pickaxe"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "test_pickaxe",
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "测试之镐子!",
+        "color": "white"
+      }
+    },
+    {
+      "function": "minecraft:set_custom_model_data",
+      "colors": {
+        "values": [
+          16777215
+        ],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "item:melee/test_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "carvers": [],
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "particle": {
+        "options": {
+          "type": "minecraft:wax_off"
+        },
+        "probability": 0.0007
+    },
+    "dry_foliage_color": 8812687,
+    "foliage_color": 12089567,
+    "grass_color": 12089567,
+    "water_color": 11426529,
+    "water_fog_color": 4259923,
+    "sky_color": 12171705,
+    "fog_color": 8484720,
+    "additions_sound": {
+      "sound": {
+        "sound_id":"minecraft:block.amethyst_block.chime"
+      },
+      "tick_chance": 0.01
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.amethyst_worksite"
+          },
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.3
+  }
+}

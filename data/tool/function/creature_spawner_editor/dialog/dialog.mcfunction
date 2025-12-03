@@ -1,0 +1,11 @@
+$dialog show @s {"type": "minecraft:confirmation","after_action": "none","pause": false,"can_close_with_escape": true,"body": [],"inputs": [\
+{"type": "minecraft:text","key": "creature_spawner_type","width": 300,"label": [{"text": "刷怪笼类型","color":"gold","italic":false}],"label_visible": true,"max_length": 40,"initial": "$(creature_spawner_type)"},\
+{"type": "minecraft:text","key": "spawn_creature_id","width": 300,"label": [{"text": "刷怪名称","color":"red","italic":false}],"label_visible": true,"max_length": 40,"initial": "$(spawn_creature_id)"},\
+{"type": "minecraft:text","key": "spawn_creature_count","width": 300,"label": [{"text": "刷怪数量","color":"yellow","italic":false}],"label_visible": true,"max_length": 9D,"initial": "$(spawn_creature_count)"},\
+{"type": "minecraft:text","key": "max_spawner_cd","width": 300,"label": [{"text": "最大刷怪笼CD","color":"aqua","italic":false}],"label_visible": true,"max_length": 9,"initial": "$(max_spawner_cd)"},\
+{"type": "minecraft:text","key": "min_spawner_cd","width": 300,"label": [{"text": "最小刷怪笼CD","color":"aqua","italic":false}],"label_visible": true,"max_length": 9,"initial": "$(min_spawner_cd)"},\
+{"type": "minecraft:text","key": "spawn_range","width": 300,"label": [{"text": "刷怪范围(单位不一致)","color":"blue","italic":false}],"label_visible": true,"max_length": 5,"initial": "$(spawn_range)"},\
+{"type": "minecraft:text","key": "active_range","width": 300,"label": [{"text": "激活范围","color":"green","italic":false}],"label_visible": true,"max_length": 9,"initial": "$(active_range)"},\
+{"type": "minecraft:text","key": "spawn_count","width": 300,"label": [{"text": "最大刷怪上限","color":"dark_green","italic":false}],"label_visible": true,"max_length": 9,"initial": "$(spawn_count)"}],\
+"title": [{"text": "--*- Tealido 刷怪笼控制法杖 -*--"}],"external_title": [{"text": "Test"}],"no": {"label": [{"text": "放弃更改"}],"width": 80},"yes": {"label": [{"text": "保存更改"}],"width": 80,"action": \
+{"type": "dynamic/run_command","template": "data modify storage tool creature_spawner_$(uid) set value {$(temp)}"}}}

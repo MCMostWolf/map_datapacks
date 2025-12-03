@@ -1,0 +1,1 @@
+playsound minecraft:block.bone_block.break hostile @a ~ ~ ~ 1 0.7

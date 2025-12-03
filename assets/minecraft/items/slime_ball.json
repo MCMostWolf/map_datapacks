@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "food.essence_fruit",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "resource:item/food/essence_fruit"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/slime_ball"
+        }
+    }
+}

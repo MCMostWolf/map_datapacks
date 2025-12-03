@@ -1,0 +1,3 @@
+#execute if data entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:bundle_contents".[12] run function item:prop/shulker_box/set_lore_more
+data modify entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:bundle_contents" insert 0 from entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:custom_data".shulker_bundle.[]
+data remove entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:custom_data".shulker_bundle.[]

@@ -1,0 +1,14 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "item:_template/_bundle"
+    },
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "shulker_box": true,
+            "invul": true,
+            "shulker_bundle": []
+        }
+    }
+]

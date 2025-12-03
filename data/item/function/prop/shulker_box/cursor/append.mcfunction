@@ -1,0 +1,2 @@
+data modify entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:custom_data"."shulker_bundle" insert 0 from entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:bundle_contents".[]
+data remove entity 154cd72d-154c-d72d-eab3-28d3eab328d3 item.components."minecraft:bundle_contents".[]

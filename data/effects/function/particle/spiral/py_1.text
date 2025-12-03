@@ -1,0 +1,37 @@
+import math
+
+def generate_circular_swirls(center_x, center_y, center_z, radius, height, rotations=4, points_per_swirl=90):
+    commands = []
+    for angle_offset in [0, 90, 180, 270]:  # 四个漩涡的旋转角度偏移
+        for i in range(points_per_swirl):
+            # 计算圆形路径上的点 (俯视图为圆形)
+            angle = 2 * math.pi * i / points_per_swirl
+            x = center_x + radius * math.cos(angle + math.radians(angle_offset))
+            z = center_z + radius * math.sin(angle + math.radians(angle_offset))
+            
+            # 计算螺旋高度 (y坐标)
+            y = center_y + height * (i / points_per_swirl)
+            
+            # 生成粒子命令
+            # ~x ~y1 ~z 中y1是归零后的y偏移(即0)
+            # 速度向量 0 y 0 表示粒子垂直运动
+            command = f"particle minecraft:squid_ink ~{x - center_x:.2f} ~0 ~{z - center_z:.2f} 0 {y - center_y:.2f} 0 0.2 0 force"
+            commands.append(command)
+    return commands
+
+# 参数设置
+center_x = 0    # 中心点X坐标
+center_y = 0    # 中心点Y坐标
+center_z = 0    # 中心点Z坐标
+radius = 1      # 漩涡半径
+height = 2     # 螺旋总高度
+points_per_swirl = 45  # 每个漩涡的点数
+
+# 生成命令
+particle_commands = generate_circular_swirls(
+    center_x, center_y, center_z, radius, height, points_per_swirl=points_per_swirl
+)
+
+# 输出命令
+for cmd in particle_commands:
+    print(cmd)

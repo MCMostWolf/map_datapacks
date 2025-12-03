@@ -1,0 +1,2 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:acacia_boat",count:1,components:{"minecraft:item_model":"minecraft:air"}},Tags:["core.item.invul","loading"],Invulnerable:1b}
+execute as @n[type=minecraft:item,distance=..0.01,tag=loading] run function creature:creature_spawner/default/event/loot/load

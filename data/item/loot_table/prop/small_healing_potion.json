@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:regeneration",
+                                            "duration": 145,
+                                            "amplifier": 1
+                                        }
+                                    ],
+                                    "custom_color": 16758011
+                                },
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:max_stack_size": 16
+                            }
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:potion_contents": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": [
+                        {
+                            "translate": "prop.small_healing_potion.name",
+                            "italic": false,
+                            "color": "#ffbbed",
+                            "shadow_color": -8039289
+                        }
+                    ],
+                    "target": "custom_name"
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "translate": "prop.small_healing_potion.lore",
+                            "italic": false,
+                            "color": "#ffbbed",
+                            "shadow_color": -8039289
+                        }
+                    ],
+                    "mode": "replace_all"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "strings": {
+                        "mode": "replace_all",
+                        "values": ["prop.small_healing_potion"]
+                    }
+                }
+            ]
+        }
+    ]
+}

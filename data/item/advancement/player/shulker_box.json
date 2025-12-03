@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:shulker_boxes_",
+						"predicates": {
+							"minecraft:custom_data": {"shulker_box": true}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {"function": "item:prop/shulker_box/ad.inventory"}
+}

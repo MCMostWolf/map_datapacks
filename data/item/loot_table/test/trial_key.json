@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key"
+        }
+      ],
+      "functions": [
+        {
+            "function": "minecraft:set_custom_data",
+            "tag": {
+              "id":"trial_key",
+              "type":"test",
+              "altar_recipe":["test","tes"],
+              "test_recipe":["shaped","test_1","test_1","test_1","test_1","test_2","test_2","test_2","test_2"],
+              "tes_recipe":["shapeless","test_3"]
+            }
+        }
+      ]
+    }
+  ]
+}

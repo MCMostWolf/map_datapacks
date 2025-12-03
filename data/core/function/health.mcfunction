@@ -1,0 +1,1 @@
+#execute as @e[type=!#minecraft:noplayerne,tag=!loaded] run function core:health/noplayerne

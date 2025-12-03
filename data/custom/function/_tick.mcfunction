@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=altar.place] at @s run function custom:altar/_place

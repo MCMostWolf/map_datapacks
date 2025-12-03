@@ -1,0 +1,1 @@
+execute if score @s skill matches 1 run function creature:hostial/verdure_knight/ability/special_attack

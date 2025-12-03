@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:_template/artifact",
+          "functions": [
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:clock"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "item:_template/_click"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "id": "pearl_of_monument",
+            "cd": 300
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "minecraft:ender_pearl"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "₪|☲ Pearl of Monument ☲|₪",
+        "color": "#9d9fff",
+        "shadow_color": -11259217
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 在该位置放置一颗珍珠锚点"
+            }
+          ]
+        },
+        {
+          "translate": "item.modifiers.offhand",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : 使\"纪念碑之眼\"的传送点位设置为珍珠锚点"
+            }
+          ]
+        },
+        {
+          "keybind": "key.use",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Places a Ender Pearl Anchor at the location"
+            }
+          ]
+        },
+        {
+          "translate": "item.modifiers.offhand",
+          "color": "blue",
+          "italic": false,
+          "extra": [
+            {
+              "text": " : Sets the Ender Pearl Anchor as the teleportation point for \"Eye of Monument\""
+            }
+          ]
+        },
+        "",
+        {
+          "text": "",
+          "italic": false,
+          "color": "light_purple",
+          "extra": [
+            {
+              "text": "[⌛] : 15s",
+              "italic": false
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:azalea_leaves",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "item:_template/loot"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "block.minecraft.azalea_leaves",
+                        "color": "#73da75",
+                        "shadow_color": -12423617
+                    },
+                    "target": "item_name"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

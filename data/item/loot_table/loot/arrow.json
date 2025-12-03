@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "bone",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "item:_template/loot"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "item.minecraft.bone",
+                        "color": "#fcffdf",
+                        "shadow_color": -8618391
+                    },
+                    "target": "item_name"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

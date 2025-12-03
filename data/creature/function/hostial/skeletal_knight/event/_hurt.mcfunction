@@ -1,0 +1,1 @@
+execute if items entity @s weapon.offhand minecraft:shield run return run function creature:hostial/skeletal_knight/event/block

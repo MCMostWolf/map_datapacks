@@ -1,0 +1,1 @@
+$$(cmd1) storage player player.data_$(uid).$(cmd2)

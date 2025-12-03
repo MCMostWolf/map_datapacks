@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:can_break": false,
+                "minecraft:can_place_on": false,
+                "minecraft:dyed_color": false,
+                "minecraft:trim": false,
+                "minecraft:unbreakable": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

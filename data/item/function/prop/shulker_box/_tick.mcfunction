@@ -1,0 +1,2 @@
+execute if items entity @s player.cursor #minecraft:shulker_boxes_[minecraft:custom_data~{"shulker_box":true},minecraft:bundle_contents~{items:{size:{min:1}}}] run function item:prop/shulker_box/cursor/load
+execute if items entity @s player.cursor #minecraft:shulker_boxes_[minecraft:custom_data~{"shulker_box":true},minecraft:custom_data~{"in_cursor":false}] run function item:prop/shulker_box/cursor/load

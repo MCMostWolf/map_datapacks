@@ -1,0 +1,32 @@
+particle minecraft:small_flame ~0.900 ~0.000 ~0.000 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.880 ~0.000 ~0.187 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.822 ~0.000 ~0.366 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.728 ~0.000 ~0.529 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.602 ~0.000 ~0.669 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.450 ~0.000 ~0.779 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.278 ~0.000 ~0.856 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~0.094 ~0.000 ~0.895 0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.094 ~0.000 ~0.895 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.278 ~0.000 ~0.856 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.450 ~0.000 ~0.779 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.602 ~0.000 ~0.669 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.728 ~0.000 ~0.529 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.822 ~0.000 ~0.366 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.880 ~0.000 ~0.187 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.900 ~0.000 ~0.000 -0.000 0.000 0.000 0 0 force
+particle minecraft:small_flame ~-0.880 ~0.000 ~-0.187 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.822 ~0.000 ~-0.366 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.728 ~0.000 ~-0.529 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.602 ~0.000 ~-0.669 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.450 ~0.000 ~-0.779 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.278 ~0.000 ~-0.856 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~-0.094 ~0.000 ~-0.895 -0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.094 ~0.000 ~-0.895 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.278 ~0.000 ~-0.856 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.450 ~0.000 ~-0.779 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.602 ~0.000 ~-0.669 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.728 ~0.000 ~-0.529 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.822 ~0.000 ~-0.366 0.000 0.000 -0.000 0 0 force
+particle minecraft:small_flame ~0.880 ~0.000 ~-0.187 0.000 0.000 -0.000 0 0 force
+
+

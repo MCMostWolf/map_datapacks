@@ -1,0 +1,1 @@
+execute if entity @s[tag=creature.spider_baby.unattack] run return run function creature:hostial/spider_baby/unattack/_tick

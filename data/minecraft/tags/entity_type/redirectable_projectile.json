@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:impact_projectiles",
+    "minecraft:ender_pearl",
+    "minecraft:fishing_bobber",
+    "#minecraft:potion"
+  ]
+}

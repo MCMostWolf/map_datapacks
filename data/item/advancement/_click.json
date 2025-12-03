@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "Click": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:use/_click"
+  }
+}

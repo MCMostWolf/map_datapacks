@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:grass",
+        "#minecraft:coral_plants",
+        "#minecraft:dead_coral_plants",
+        "#minecraft:mushroom",
+        "#minecraft:saplings",
+        "minecraft:moss_carpet",
+        "minecraft:pale_moss_carpet",
+        "minecraft:hanging_roots",
+        "minecraft:pale_hanging_moss",
+        "minecraft:glow_lichen",
+        "minecraft:small_dripleaf",
+        "minecraft:big_dripleaf",
+        "minecraft:leaf_litter",
+        "minecraft:pink_petals",
+        "minecraft:wildflowers",
+        "#minecraft:vines"
+    ]
+}

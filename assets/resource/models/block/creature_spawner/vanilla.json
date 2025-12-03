@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all_inner_faces",
+  "textures": {
+    "all": "resource:block/creature_spawner/vanilla"
+  }
+}

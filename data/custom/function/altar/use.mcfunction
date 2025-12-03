@@ -1,0 +1,3 @@
+execute positioned ~-0.95 ~-0.95 ~-0.95 as @e[dx=0,dy=0,dz=0,type=minecraft:interaction,tag=altar.core] positioned ~0.9 ~0.9 ~0.9 if entity @s[dx=0,dy=0,dz=0] run return run function custom:altar/core/_use
+execute positioned ~-0.95 ~-0.95 ~-0.95 as @e[dx=0,dy=0,dz=0,type=minecraft:interaction,tag=altar.base] positioned ~0.9 ~0.9 ~0.9 if entity @s[dx=0,dy=0,dz=0] run return run function custom:altar/base/_use
+execute if entity @s[distance=..16] positioned ^ ^ ^0.2 run function custom:altar/use

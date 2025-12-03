@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:leaves",
+        "#minecraft:glass",
+        "#minecraft:grows",
+        "minecraft:spawner"
+    ]
+}

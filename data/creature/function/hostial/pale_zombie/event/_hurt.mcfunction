@@ -1,0 +1,1 @@
+playsound minecraft:block.bone_block.hit hostile @a ~ ~ ~ 1 0

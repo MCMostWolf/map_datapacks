@@ -1,0 +1,2 @@
+execute if predicate condition:tick/10t if entity @a[distance=..7,tag=condition.playing] run particle minecraft:dust_color_transition\
+{from_color:16776356,scale:1.5,to_color:14606293} ~ ~ ~ 0.3 0.3 0.3 0.05 3 normal
