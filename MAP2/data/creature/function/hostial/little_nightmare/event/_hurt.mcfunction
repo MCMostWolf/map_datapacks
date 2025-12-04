@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:squid_ink ~ ~ ~ 0.2 0.2 0.2 0.15 5 normal

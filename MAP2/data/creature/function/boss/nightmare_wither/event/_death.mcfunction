@@ -1,0 +1,1 @@
+playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 0.5 0.7
