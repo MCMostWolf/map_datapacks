@@ -1,0 +1,12 @@
+{
+	"lj.bomb.item_ice":"\u2744 Ice Bomb \u2744",
+	"lj.bomb.item_toxic":"\u2620 Toxic Bomb \u2620",
+	"lj.bomb.item_fire":"\ud83d\udd25 Fire Bomb \ud83d\udd25",
+	"lj.bomb.lore_ice":"On impact, explode and leave a",
+	"lj.bomb.lore_ice_1":"Slowness III Weakness I cloud",
+	"lj.bomb.lore_toxic":"On impact, explode and apply up",
+	"lj.bomb.lore_toxic_1":"to 10s of Wither III",
+	"lj.bomb.lore_fire":"On impact, explode and break",
+	"lj.bomb.lore_fire_1":"blocks and leave fire behind",
+	"lj.bomb.lore_power":"\u00b7 Explosion Power: 2"
+}

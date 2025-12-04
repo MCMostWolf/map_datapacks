@@ -1,0 +1,2 @@
+execute if entity @s[tag=!lj.bomb.T.fire_bomb] run data modify entity @s equipment.chest set value {id:"white_dye",components:{enchantments:{"lj.bomb:explode":1}}}
+execute if entity @s[tag=lj.bomb.T.fire_bomb] run data modify entity @s equipment.chest set value {id:"white_dye",components:{enchantments:{"lj.bomb:explode_fire":1}}}

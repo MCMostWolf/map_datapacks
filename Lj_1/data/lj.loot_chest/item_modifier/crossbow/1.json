@@ -1,0 +1,42 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": {"type": "uniform", "min": 1, "max": 2}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 1}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/aoe/1"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 2}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/base/1"
+			}
+		]
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": 0
+		}
+	}
+]

@@ -1,0 +1,1 @@
+$return run execute if data storage lj.death:data players."$(UUID)".corpse.$(corpse_id)

@@ -1,0 +1,49 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 2}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"feather_falling": 1
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "movement_speed",
+					"amount": {"type": "uniform", "min": 0.12, "max": 0.18},
+					"operation": "add_multiplied_total",
+					"slot": "feet",
+					"id": "lj.loot_chest:random_attribute/boots"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

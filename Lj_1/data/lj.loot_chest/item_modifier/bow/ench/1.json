@@ -1,0 +1,6 @@
+{
+	"function": "set_enchantments",
+	"enchantments": {
+		"punch": 1
+	}
+}

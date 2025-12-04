@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "baked_potato"
+		}],
+		"rolls": 1
+	}]
+}

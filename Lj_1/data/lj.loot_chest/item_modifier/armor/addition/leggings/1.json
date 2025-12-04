@@ -1,0 +1,49 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 2}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "step_height",
+					"amount": 0.5,
+					"operation": "add_value",
+					"slot": "legs",
+					"id": "lj.loot_chest:random_attribute/leggings"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"swift_sneak": 2
+			}
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

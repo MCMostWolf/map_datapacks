@@ -1,0 +1,19 @@
+{
+	"parent": "lj.core:trigger_root",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:bundles",
+						"predicates": {
+							"minecraft:custom_data": {"lj.magic_bundle:data": {}}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {"function": "lj.magic_bundle:inventory_changed"}
+}

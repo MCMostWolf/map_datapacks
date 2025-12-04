@@ -1,0 +1,112 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": {"type": "uniform", "min": 1, "max": 5}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 1}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/sharpness/4"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/ench/1"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 2}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/sharpness/4"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/ench/2"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 3}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/sharpness/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/ench/4"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 4}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/sharpness/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/ench/1"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/attr/1"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 5}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/sharpness/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/ench/2"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:sword/attr/1"
+			}
+		]
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": 0
+		}
+	}
+]

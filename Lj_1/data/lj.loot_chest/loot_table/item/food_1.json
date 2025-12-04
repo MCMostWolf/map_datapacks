@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "melon_slice"
+		}],
+		"rolls": 1
+	}]
+}

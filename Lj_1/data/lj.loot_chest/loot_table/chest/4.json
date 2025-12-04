@@ -1,0 +1,214 @@
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "experience_bottle",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "cobblestone",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "leather",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "coal",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},				
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/log",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_solid",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 11
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_glass",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/food_3",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				}
+			],
+			"rolls": 4
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "wind_charge",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.bomb:ice_bomb",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "arrow",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "copper_ingot",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 1, "max": 2}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:splash_potion/1",
+					"weight": 2
+				}
+			],
+			"rolls": 2
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "copper_helmet",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/3"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "copper_chestplate",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/3"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "copper_leggings",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/3"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "copper_boots",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/3"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "copper_sword",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:sword/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "copper_pickaxe",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:pickaxe/2"
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:bow/4"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "crossbow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:crossbow/4"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "shield",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "bucket",
+					"weight": 1
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

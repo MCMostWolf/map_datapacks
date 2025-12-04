@@ -1,0 +1,250 @@
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "experience_bottle",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "cobblestone",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "copper_ingot",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "leather",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "coal",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},				
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/log",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 5
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_solid",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 8
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_light",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_glass",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/food_4",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 4
+				}
+			],
+			"rolls": 5
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "wind_charge",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 10
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.bomb:ice_bomb",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 4
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.bomb:toxic_bomb",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 3
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.bomb:fire_bomb",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "arrow",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 7, "max": 14}
+					}],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "iron_ingot",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 5, "max": 8}
+					}],
+					"weight": 20
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:splash_potion/1",
+					"weight": 6
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:splash_potion/2",
+					"weight": 14
+				},
+				{
+					"type": "item",
+					"name": "anvil",
+					"weight": 2
+				}
+			],
+			"rolls": 2
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "iron_helmet",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/8"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "iron_chestplate",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/8"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "iron_leggings",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/8"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "iron_boots",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/8"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "iron_sword",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:sword/8"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "iron_pickaxe",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:pickaxe/8"
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:bow/9"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "crossbow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:crossbow/9"
+					}],
+					"weight": 3
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

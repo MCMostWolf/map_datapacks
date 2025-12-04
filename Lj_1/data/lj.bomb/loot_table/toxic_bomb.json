@@ -1,0 +1,48 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "splash_potion"
+		}],
+		"rolls": 1
+	}],
+	"functions": [{
+		"function": "set_components",
+		"components": {
+			"custom_data": {
+				"lj.bomb:data":{"fire":false}
+			},
+			"potion_contents": {
+				"custom_color": 5017135,
+				"custom_effects":[
+					{
+						"id":"wither",
+						"duration": 200,
+						"amplifier": 2
+					}
+				]
+			},
+			"max_stack_size": 16,
+			"tooltip_display": {
+				"hidden_components": ["potion_contents"]
+			},
+			"use_cooldown": {
+				"seconds": 0.5,
+				"cooldown_group": "lj.bomb"
+			},
+			"custom_name": {
+				"translate": "lj.bomb.item_toxic",
+				"color": "dark_green",
+				"bold": true,
+				"italic": false
+			},
+			"item_model": "lingering_potion",
+			"rarity": "uncommon",
+			"lore": [
+				{"translate": "lj.bomb.lore_toxic","color":"yellow","italic":false},
+				{"translate": "lj.bomb.lore_toxic_1","color":"yellow","italic":false},
+				{"translate": "lj.bomb.lore_power","color":"gray","italic":false}
+			]
+		}
+	}]
+}

@@ -1,0 +1,1 @@
+return run data modify storage lj.death:cache UUID set from entity @s data."lj.death:owner"

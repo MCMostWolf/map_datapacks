@@ -1,0 +1,10 @@
+[
+	{
+		"function": "reference",
+		"name": "lj.loot_chest:pickaxe/efficiency/5"
+	},
+	{
+		"function": "reference",
+		"name": "lj.loot_chest:pickaxe/addition/1"
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": {"type": "uniform", "min": 1, "max": 3}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 1}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/aoe/4"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/base/3"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 2}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/aoe/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/base/4"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 3}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/aoe/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/base/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:crossbow/attr/1"
+			}
+		]
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": 0
+		}
+	}
+]

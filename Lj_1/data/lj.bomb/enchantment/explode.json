@@ -1,0 +1,32 @@
+{
+	"anvil_cost": 1,
+	"description": "",
+	"max_cost": {"base": 1, "per_level_above_first": 1},
+	"min_cost": {"base": 1, "per_level_above_first": 1},
+	"max_level": 1,
+	"slots": ["chest"],
+	"supported_items": [],
+	"weight": 1,
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:explode",
+					"radius": 2,
+					"attribute_to_user": false,
+					"damage_type": "explosion",
+					"block_interaction": "none",
+					"large_particle": {"type": "explosion_emitter"},
+					"small_particle": {"type": "explosion_emitter"},
+					"sound": "entity.generic.explode"					
+				}
+			},
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bomb:kill"
+				}
+			}
+		]
+	}
+}

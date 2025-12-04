@@ -1,0 +1,3 @@
+$data modify storage lj.magic_bundle:storage $(id) append from entity 264f26dd-0031-7462-30e0-8de467924832 equipment.mainhand.components."minecraft:bundle_contents".[-1]
+data remove entity 264f26dd-0031-7462-30e0-8de467924832 equipment.mainhand.components."minecraft:bundle_contents".[-1]
+execute if data entity 264f26dd-0031-7462-30e0-8de467924832 equipment.mainhand.components."minecraft:bundle_contents".[-1] run function lj.magic_bundle:flush.1 with storage lj.magic_bundle:cache

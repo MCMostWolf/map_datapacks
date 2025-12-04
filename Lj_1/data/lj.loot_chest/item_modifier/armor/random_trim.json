@@ -1,0 +1,4537 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": {"min": 1, "max": 11},
+			"lure": {"min": 1, "max": 18}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 1
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "amethyst",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 2
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "gold",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 3
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "lapis",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 4
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "iron",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 5
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "resin",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 6
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "copper",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 7
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "redstone",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 8
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "diamond",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 9
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "emerald",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 10
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "netherite",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [
+					{
+						"enchantments": "luck_of_the_sea",
+						"levels": 11
+					}
+				]
+			}
+		},
+		"modifier": [
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 1
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "bolt"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 2
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "coast"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 3
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "dune"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 4
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "eye"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 5
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "flow"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 6
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "host"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 7
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "raiser"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 8
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "rib"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 9
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "sentry"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 10
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "shaper"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 11
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "silence"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 12
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "spire"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 13
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "snout"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 14
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "tide"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 15
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "vex"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 16
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "ward"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 17
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "wayfinder"
+						}
+					}
+				}
+			},
+			{
+				"function": "filtered",
+				"item_filter": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "lure",
+								"levels": 18
+							}
+						]
+					}
+				},
+				"modifier": {
+					"function": "set_components",
+					"components": {
+						"trim": {
+							"material": "quartz",
+							"pattern": "wild"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": 0,
+			"lure": 0
+		}
+	}
+]

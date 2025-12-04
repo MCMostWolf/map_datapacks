@@ -1,0 +1,14 @@
+{
+	"parent": "lj.core:trigger_root",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "interaction"
+				}
+			}
+		}
+	},
+	"rewards": {"function": "lj.death:click_corpse"}
+}

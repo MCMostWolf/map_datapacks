@@ -1,0 +1,272 @@
+{
+	"pools": [{
+		"entries": [
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"custom_name": {
+							"translate": "item.minecraft.potion.effect.healing",
+							"italic": false
+						},
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "instant_health",
+								"duration": 1,
+								"amplifier": 2
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "thick",
+							"custom_effects": [{
+								"id": "absorption",
+								"duration": 3600,
+								"amplifier": 1
+							}]
+						}
+					}
+				}],
+				"weight": 2
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"custom_name": {
+							"translate": "item.minecraft.potion.effect.regeneration",
+							"italic": false
+						},
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "regeneration",
+								"duration": 800,
+								"amplifier": 1
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"custom_name": {
+							"translate": "item.minecraft.potion.effect.regeneration",
+							"italic": false
+						},
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "regeneration",
+								"duration": 300,
+								"amplifier": 2
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "minecraft:mundane",
+							"custom_effects": [
+								{
+									"id": "fire_resistance",
+									"amplifier": 0,
+									"duration": 3600
+								},
+								{
+									"id": "regeneration",
+									"amplifier": 1,
+									"duration": 400
+								}
+							]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "long_fire_resistance"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"custom_name": {
+							"translate": "item.minecraft.potion.effect.swiftness",
+							"italic": false
+						},
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "speed",
+								"duration": 18000,
+								"amplifier": 0
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"custom_name": {
+							"translate": "item.minecraft.potion.effect.strength",
+							"italic": false
+						},
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "strength",
+								"duration": 18000,
+								"amplifier": 0
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "haste",
+								"duration": 18000,
+								"amplifier": 0
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "mundane",
+							"custom_effects": [
+								{
+									"id": "strength",
+									"duration": 1800,
+									"amplifier": 1
+								},
+								{
+									"id": "haste",
+									"duration": 1800,
+									"amplifier": 1
+								}
+							]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "mundane",
+							"custom_effects": [
+								{
+									"id": "haste",
+									"duration": 1800,
+									"amplifier": 1
+								},
+								{
+									"id": "speed",
+									"duration": 1800,
+									"amplifier": 1
+								}
+							]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "mundane",
+							"custom_effects": [
+								{
+									"id": "speed",
+									"duration": 1800,
+									"amplifier": 1
+								},
+								{
+									"id": "strength",
+									"duration": 1800,
+									"amplifier": 1
+								}
+							]
+						}
+					}
+				}],
+				"weight": 1
+			}
+		],
+		"rolls": 1
+	}],
+	"functions": [{
+		"function": "set_components",
+		"components": {
+			"enchantment_glint_override": true
+		}
+	}]
+}

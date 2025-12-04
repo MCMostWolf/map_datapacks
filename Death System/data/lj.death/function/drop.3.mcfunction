@@ -1,0 +1,1 @@
+$summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:player_head",components:{"minecraft:profile":"$(text)"}},Glowing:true,Tags:["lj.death.T.display","lj.death.T.display_tmp"],glow_color_override:11141120}

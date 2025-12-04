@@ -1,0 +1,2 @@
+$data modify storage lj.death:data players."$(UUID)".corpse.$(corpse_id) set from storage lj.death:cache corpse_new
+data modify storage lj.death:backup corpse_list append from storage lj.death:cache corpse_new

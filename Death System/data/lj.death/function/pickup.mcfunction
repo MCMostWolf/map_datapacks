@@ -1,0 +1,50 @@
+data remove storage lj.death:cache corpse_pickup
+function lj.death:pickup.1 with storage lj.death:cache {}
+function lj.death:pickup.2 {slot:'hotbar.0'}
+function lj.death:pickup.2 {slot:'hotbar.1'}
+function lj.death:pickup.2 {slot:'hotbar.2'}
+function lj.death:pickup.2 {slot:'hotbar.3'}
+function lj.death:pickup.2 {slot:'hotbar.4'}
+function lj.death:pickup.2 {slot:'hotbar.5'}
+function lj.death:pickup.2 {slot:'hotbar.6'}
+function lj.death:pickup.2 {slot:'hotbar.7'}
+function lj.death:pickup.2 {slot:'hotbar.8'}
+function lj.death:pickup.2 {slot:'inventory.0'}
+function lj.death:pickup.2 {slot:'inventory.1'}
+function lj.death:pickup.2 {slot:'inventory.2'}
+function lj.death:pickup.2 {slot:'inventory.3'}
+function lj.death:pickup.2 {slot:'inventory.4'}
+function lj.death:pickup.2 {slot:'inventory.5'}
+function lj.death:pickup.2 {slot:'inventory.6'}
+function lj.death:pickup.2 {slot:'inventory.7'}
+function lj.death:pickup.2 {slot:'inventory.8'}
+function lj.death:pickup.2 {slot:'inventory.9'}
+function lj.death:pickup.2 {slot:'inventory.10'}
+function lj.death:pickup.2 {slot:'inventory.11'}
+function lj.death:pickup.2 {slot:'inventory.12'}
+function lj.death:pickup.2 {slot:'inventory.13'}
+function lj.death:pickup.2 {slot:'inventory.14'}
+function lj.death:pickup.2 {slot:'inventory.15'}
+function lj.death:pickup.2 {slot:'inventory.16'}
+function lj.death:pickup.2 {slot:'inventory.17'}
+function lj.death:pickup.2 {slot:'inventory.18'}
+function lj.death:pickup.2 {slot:'inventory.19'}
+function lj.death:pickup.2 {slot:'inventory.20'}
+function lj.death:pickup.2 {slot:'inventory.21'}
+function lj.death:pickup.2 {slot:'inventory.22'}
+function lj.death:pickup.2 {slot:'inventory.23'}
+function lj.death:pickup.2 {slot:'inventory.24'}
+function lj.death:pickup.2 {slot:'inventory.25'}
+function lj.death:pickup.2 {slot:'inventory.26'}
+function lj.death:pickup.2 {slot:'armor.feet'}
+function lj.death:pickup.2 {slot:'armor.legs'}
+function lj.death:pickup.2 {slot:'armor.chest'}
+function lj.death:pickup.2 {slot:'armor.head'}
+function lj.death:pickup.2 {slot:'weapon.offhand'}
+function lj.death:pickup.4 {slot:'player.cursor'}
+function lj.death:pickup.4 {slot:'player.crafting.0'}
+function lj.death:pickup.4 {slot:'player.crafting.1'}
+function lj.death:pickup.4 {slot:'player.crafting.2'}
+function lj.death:pickup.4 {slot:'player.crafting.3'}
+function lj.death:pickup.5
+playsound minecraft:entity.allay.ambient_without_item player @a ~ ~ ~ 1

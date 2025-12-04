@@ -8,7 +8,7 @@
     "block": [
       {
         "namespace": "minecraft",
-        "path": "advancement/.*"
+        "path": "advancement/(adventure|end|husbandry|nether|story)"
       }
     ]
   }

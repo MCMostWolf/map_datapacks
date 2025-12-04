@@ -1,0 +1,11 @@
+[
+	{
+		"function": "reference",
+		"name": "lj.loot_chest:armor/prot/1"
+	},
+	{
+		"function": "reference",
+		"name": "lj.loot_chest:armor/random_trim",
+		"conditions": [{"condition": "random_chance", "chance": 0.05}]
+	}
+]

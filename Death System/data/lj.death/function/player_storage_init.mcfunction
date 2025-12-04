@@ -1,0 +1,1 @@
+$data modify storage lj.death:data players."$(UUID)" set value {corpse:{},tp_data:{}}
