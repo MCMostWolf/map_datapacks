@@ -1,0 +1,92 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 3}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "jump_strength",
+					"amount": 1.00,
+					"operation": "add_multiplied_total",
+					"slot": "legs",
+					"id": "lj.loot_chest:random_attribute/leggings"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "set_enchantments",
+				"enchantments": {
+					"swift_sneak": 3
+				}
+			},
+			{
+				"function": "set_attributes",
+				"modifiers": [
+					{
+						"attribute": "step_height",
+						"amount": 1.5,
+						"operation": "add_value",
+						"slot": "legs",
+						"id": "lj.loot_chest:random_attribute/leggings"
+					}
+				],
+				"replace": false
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 3}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "jump_strength",
+					"amount": 0.20,
+					"operation": "add_multiplied_total",
+					"slot": "legs",
+					"id": "lj.loot_chest:random_attribute/leggings"
+				},
+				{
+					"attribute": "minecraft:gravity",
+					"amount": -0.30,
+					"operation": "add_multiplied_total",
+					"slot": "legs",
+					"id": "lj.loot_chest:random_attribute/leggings"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

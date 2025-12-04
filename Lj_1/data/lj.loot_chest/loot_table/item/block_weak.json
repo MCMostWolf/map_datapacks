@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "coarse_dirt"
+		}],
+		"rolls": 1
+	}]
+}

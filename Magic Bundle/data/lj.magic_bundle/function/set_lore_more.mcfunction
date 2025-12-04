@@ -1,0 +1,2 @@
+data modify entity 264f26dd-0031-7462-30e0-8de467924832 equipment.mainhand.components."minecraft:lore" prepend value {translate:"lj.magic_bundle.lore.more",with:["0"],color:"dark_red"}
+$execute store result entity 264f26dd-0031-7462-30e0-8de467924832 equipment.mainhand.components."minecraft:lore".[{translate:"lj.magic_bundle.lore.more"}].with.[0] int 1 run execute if data storage lj.magic_bundle:storage $(id).[]

@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "bricks"
+		}],
+		"rolls": 1
+	}]
+}

@@ -1,0 +1,1 @@
+return run function lj.death:retrieve.2 with storage lj.death:cache {}

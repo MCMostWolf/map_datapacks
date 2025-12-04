@@ -1,0 +1,150 @@
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "torch",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "leather",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 10
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/block_solid",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 12
+				},
+				{
+					"type": "loot_table",
+					"value": "lj.loot_chest:item/food_2",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 8
+				}
+			],
+			"rolls": 4
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "cobblestone",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "arrow",
+					"functions": [{
+						"function": "set_count",
+						"count": {"min": 4, "max": 8}
+					}],
+					"weight": 1
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_helmet",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "leather_chestplate",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "leather_leggings",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "leather_boots",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:armor/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "stone_sword",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:sword/1"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "stone_pickaxe",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:pickaxe/1"
+					}],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:bow/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "crossbow",
+					"functions": [{
+						"function": "reference",
+						"name": "lj.loot_chest:crossbow/2"
+					}],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "shield",
+					"weight": 1
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"function": "set_enchantments",
+	"enchantments": {
+		"punch": 2,
+		"flame": 1
+	}
+}

@@ -1,0 +1,139 @@
+{
+	"pools": [{
+		"entries": [
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "strong_healing"
+						}
+					}
+				}],
+				"weight": 3
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "strong_regeneration"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "fire_resistance"
+						}
+					}
+				}],
+				"weight": 2
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "long_swiftness"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "strong_swiftness"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "long_strength"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "strong_strength"
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "haste",
+								"duration": 9600,
+								"amplifier": 0
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "splash_potion",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"potion": "awkward",
+							"custom_effects": [{
+								"id": "haste",
+								"duration": 1800,
+								"amplifier": 1
+							}]
+						}
+					}
+				}],
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "totem_of_undying",
+				"weight": 1
+			}
+		],
+		"rolls": 1
+	}]
+}

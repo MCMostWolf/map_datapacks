@@ -1,0 +1,85 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 4}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [{
+				"attribute": "armor_toughness",
+				"amount": 4,
+				"operation": "add_value",
+				"slot": "mainhand",
+				"id": "lj.loot_chest:random_attribute/mainhand"
+			}],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [{
+				"attribute": "knockback_resistance",
+				"amount": 0.4,
+				"operation": "add_value",
+				"slot": "mainhand",
+				"id": "lj.loot_chest:random_attribute/mainhand"
+			}],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 3}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [{
+				"attribute": "movement_speed",
+				"amount": {"type": "uniform", "min": 0.15, "max": 0.25},
+				"operation": "add_multiplied_total",
+				"slot": "mainhand",
+				"id": "lj.loot_chest:random_attribute/mainhand"
+			}],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 4}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"knockback": {"type": "uniform", "min": 2, "max": 3}
+			}
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

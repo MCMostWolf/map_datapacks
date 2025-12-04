@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor #minecraft:bundles[minecraft:custom_data~{"lj.magic_bundle:data":{}},minecraft:bundle_contents~{items:{size:{min:1}}}] run function lj.magic_bundle:flush

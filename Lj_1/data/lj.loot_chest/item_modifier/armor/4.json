@@ -1,0 +1,51 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": {"type": "uniform", "min": 1, "max": 2}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 1}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:armor/prot/4"
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "luck_of_the_sea", "levels": 2}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:armor/prot/3"
+			},
+			{
+				"function": "reference",
+				"name": "lj.loot_chest:armor/addition/1"
+			}
+		]
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"luck_of_the_sea": 0
+		}
+	},
+	{
+		"function": "reference",
+		"name": "lj.loot_chest:armor/random_trim",
+		"conditions": [{"condition": "random_chance", "chance": 0.35}]
+	}
+]

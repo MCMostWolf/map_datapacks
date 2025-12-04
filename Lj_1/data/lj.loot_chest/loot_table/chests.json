@@ -1,0 +1,242 @@
+{
+	"pools": [
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/1"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 1)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/2"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 2)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/3"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 3)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/4"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 4)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/5"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 5)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/6"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 6)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/7"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 7)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/8"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 8)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/9"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 9)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/10"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 10)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/11"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 11)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/12"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 12)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/13"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 13)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		},
+		{
+			"entries": [{
+				"type": "item",
+				"name": "chest",
+				"functions": [{
+					"function": "set_components",
+					"components": {
+						"block_entity_data": {
+							"id": "chest",
+							"LootTable": "lj.loot_chest:chest/14"
+						},
+						"custom_name": [{"translate": "block.minecraft.chest"}," (Tier 14)"]
+					}
+				}]
+			}],
+			"rolls": 1
+		}
+	]
+}

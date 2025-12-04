@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=lj.bomb.T.bomb] unless predicate {"condition":"entity_properties",entity:this,predicate:{vehicle:{}}} run function lj.bomb:explode

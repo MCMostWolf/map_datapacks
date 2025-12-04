@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:interaction,tag=lj.death.T.interaction] as @a at @s run function lj.death:remove_retrieved_corpse.1

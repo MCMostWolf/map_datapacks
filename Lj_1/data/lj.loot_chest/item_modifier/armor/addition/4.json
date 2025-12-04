@@ -1,0 +1,42 @@
+[
+	{
+		"function": "filtered",
+		"item_filter": {
+			"items": "#foot_armor"
+		},
+		"modifier": {
+			"function": "reference",
+			"name": "lj.loot_chest:armor/addition/boots/4"
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"items": "#leg_armor"
+		},
+		"modifier": {
+			"function": "reference",
+			"name": "lj.loot_chest:armor/addition/leggings/4"
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"items": "#chest_armor"
+		},
+		"modifier": {
+			"function": "reference",
+			"name": "lj.loot_chest:armor/addition/chestplate/4"
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"items": "#head_armor"
+		},
+		"modifier": {
+			"function": "reference",
+			"name": "lj.loot_chest:armor/addition/helmet/4"
+		}
+	}
+]

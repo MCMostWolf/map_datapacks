@@ -1,0 +1,75 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 2}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": [
+			{
+				"function": "set_attributes",
+				"modifiers": [
+					{
+						"attribute": "knockback_resistance",
+						"amount": 0.4,
+						"operation": "add_value",
+						"slot": "chest",
+						"id": "minecraft:armor.chestplate"
+					}
+				],
+				"replace": false
+			},
+			{
+				"function": "filtered",
+				"item_filter": {"items": ["netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots"]},
+				"modifier": {
+					"function": "set_attributes",
+					"modifiers": [
+						{
+							"attribute": "knockback_resistance",
+							"amount": 0.5,
+							"operation": "add_value",
+							"slot": "chest",
+							"id": "minecraft:armor.chestplate"
+						}
+					],
+					"replace": false
+				}
+			}
+		]
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "max_health",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "chest",
+					"id": "lj.loot_chest:random_attribute/chest"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

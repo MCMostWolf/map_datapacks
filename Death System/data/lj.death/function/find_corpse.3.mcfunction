@@ -1,0 +1,2 @@
+$tellraw @p[tag=lj.death.T.find_corpse_owner] {translate:"lj.death.find_by",color:"aqua",with:[{"selector":"@p[tag=lj.death.T.pickup_player]"},{"translate":"lj.death.tp",bold:true,click_event:{action:"run_command",command:"trigger lj.death.TRIGGER set $(corpse_id)"}}]}
+$data modify storage lj.death:data players."$(UUID)".tp_data.$(corpse_id) set from storage lj.death:cache tp_data

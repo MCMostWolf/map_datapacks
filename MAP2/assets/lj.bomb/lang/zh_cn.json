@@ -1,0 +1,12 @@
+{
+	"lj.bomb.item_ice":"\u2744 冰炸弹 \u2744",
+	"lj.bomb.item_toxic":"\u2620 剧毒炸弹 \u2620",
+	"lj.bomb.item_fire":"\ud83d\udd25 火焰炸弹 \ud83d\udd25",
+	"lj.bomb.lore_ice":"破碎时，爆炸并留下",
+	"lj.bomb.lore_ice_1":"缓慢III虚弱I药水云",
+	"lj.bomb.lore_toxic":"破碎时，爆炸并施加",
+	"lj.bomb.lore_toxic_1":"至多10秒凋零III",
+	"lj.bomb.lore_fire":"破碎时，爆炸并破坏",
+	"lj.bomb.lore_fire_1":"方块并生成火",
+	"lj.bomb.lore_power":"\u00b7 爆炸威力：2"
+}

@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "oak_planks"
+		}],
+		"rolls": 1
+	}]
+}

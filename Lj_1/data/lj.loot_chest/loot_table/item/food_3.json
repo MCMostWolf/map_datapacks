@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"entries": [{
+			"type": "item",
+			"name": "cooked_chicken"
+		}],
+		"rolls": 1
+	}]
+}

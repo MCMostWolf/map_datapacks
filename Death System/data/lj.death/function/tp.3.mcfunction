@@ -1,0 +1,3 @@
+$execute as @e[type=minecraft:interaction,distance=..1,tag=lj.death.T.interaction] if score @s lj.death.V.death_pile_uid matches $(uid) at @s run tp @p[tag=lj.death.T.tp_player] ~ ~ ~
+$execute as @e[type=minecraft:interaction,distance=..1,tag=lj.death.T.interaction] if score @s lj.death.V.death_pile_uid matches $(uid) run kill @s
+$execute as @e[type=minecraft:item_display,distance=..1,tag=lj.death.T.display] if score @s lj.death.V.death_pile_uid matches $(uid) run kill @s

@@ -1,0 +1,6 @@
+{
+	"function": "set_enchantments",
+	"enchantments": {
+		"power": 1
+	}
+}

@@ -1,0 +1,1 @@
+$return run execute if entity @e[type=minecraft:interaction,tag=lj.death.T.interaction,scores={lj.death.V.death_pile_uid=$(uid)}]

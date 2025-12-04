@@ -1,0 +1,131 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 8}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 8
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 7
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 3}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 6,
+				"smite": 1
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 4}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 4,
+				"smite": 2
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 5}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 3,
+				"smite": 3
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 6}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 2,
+				"smite": 3
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 7}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"sharpness": 1,
+				"smite": 4
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 8}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"smite": 5
+			}
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

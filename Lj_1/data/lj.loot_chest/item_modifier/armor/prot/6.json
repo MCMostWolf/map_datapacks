@@ -1,0 +1,76 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 4}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"protection": 3,
+				"fire_protection": 2
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"protection": 2,
+				"blast_protection": 1,
+				"fire_protection": 2
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 3}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"protection": 3,
+				"projectile_protection": 2
+			}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 4}]
+			}
+		},
+		"modifier": {
+			"function": "set_enchantments",
+			"enchantments": {
+				"protection": 2,
+				"blast_protection": 1,
+				"projectile_protection": 2
+			}
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

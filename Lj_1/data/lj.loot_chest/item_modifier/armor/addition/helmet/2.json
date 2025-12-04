@@ -1,0 +1,119 @@
+[
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": {"type": "uniform", "min": 1, "max": 5}
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 1}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "entity_interaction_range",
+					"amount": {"type": "uniform", "min": 0.45, "max": 0.55},
+					"operation": "add_value",
+					"slot": "head",
+					"id": "lj.loot_chest:random_attribute/head"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 2}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "block_interaction_range",
+					"amount": {"type": "uniform", "min": 0.70, "max": 0.90},
+					"operation": "add_value",
+					"slot": "head",
+					"id": "lj.loot_chest:random_attribute/head"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 3}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "attack_speed",
+					"amount": {"type": "uniform", "min": 0.35, "max": 0.45},
+					"operation": "add_multiplied_total",
+					"slot": "head",
+					"id": "lj.loot_chest:random_attribute/head"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 4}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "attack_damage",
+					"amount": {"type": "uniform", "min": 1.05, "max": 1.35},
+					"operation": "add_value",
+					"slot": "head",
+					"id": "lj.loot_chest:random_attribute/head"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "filtered",
+		"item_filter": {
+			"predicates": {
+				"enchantments": [{"enchantments": "lure", "levels": 5}]
+			}
+		},
+		"modifier": {
+			"function": "set_attributes",
+			"modifiers": [
+				{
+					"attribute": "block_break_speed",
+					"amount": {"type": "uniform", "min": 0.35, "max": 0.45},
+					"operation": "add_multiplied_total",
+					"slot": "head",
+					"id": "lj.loot_chest:random_attribute/head"
+				}
+			],
+			"replace": false
+		}
+	},
+	{
+		"function": "set_enchantments",
+		"enchantments": {
+			"lure": 0
+		}
+	}
+]

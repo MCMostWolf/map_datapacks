@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [{
+					"enchantments": "minecraft:vanishing_curse"
+				}]
+			}
+		},
+		"modifier": {
+			"function": "minecraft:set_count",
+			"count": 0,
+			"add": false
+		}
+	}
+]
