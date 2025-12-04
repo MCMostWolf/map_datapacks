@@ -12,7 +12,8 @@ playsound minecraft:entity.illusioner.mirror_move hostile @a ~ ~ ~ 1 0.8
 execute on passengers run data modify entity @s transformation.scale set value [0,0,0]
 $tp $(x) $(y) $(z)
 execute at @s run tp ~ ~-100 ~
-execute at @s run function creature:boss/nightmare_wither/control/tp/tp
-execute unless predicate condition:chance/chance30 run return fail
+playsound minecraft:event.mob_effect.trial_omen hostile @a ~ ~ ~ 0.5 1.5
+execute positioned ~ ~0.5 ~ run function effects:particle/circle/squid_ink/mini_out_1
+ function creature:hostial/little_nightmare/_spawn
 function creature:hostial/little_nightmare/_spawn
-execute if entity @s[tag=phase2] run function creature:hostial/little_nightmare/_spawn
+function creature:hostial/little_nightmare/_spawn

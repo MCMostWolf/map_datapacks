@@ -14,3 +14,4 @@ playsound minecraft:entity.wither.hurt hostile @a ~ ~ ~ 0.4 1.2
 playsound minecraft:entity.wither.hurt hostile @a ~ ~ ~ 0.4 0.7
 execute on passengers run data modify entity @s transformation.scale set value [2,2,2]
 execute on passengers run data modify entity @s transformation.translation set value [0,-2,-1]
+

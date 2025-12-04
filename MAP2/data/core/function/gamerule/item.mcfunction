@@ -1,5 +1,8 @@
 execute if entity @s[tag=core.item.loaded] run return fail
 tag @s add core.item.loaded
+execute if items entity @s contents nether_star run data merge entity @s {Glowing:1b,NoGravity:1b,Tags:["core.item.invul"],CustomNameVisible:1b}
+execute if items entity @s contents nether_star run item modify entity @s contents [{function:"minecraft:set_name",name:[{"text":"₪|☲=",\
+"extra":[{"translate":"item.minecraft.nether_star"},{"text":"=☲|₪"}],"color":"#17002f","shadow_color":-9043746}],target:"item_name"}]
 execute if items entity @s contents *[minecraft:custom_data~{"invul":1b}] run tag @s add core.item.invul
 execute if items entity @s contents minecraft:barrier if function tool:debug_test run tag @s add debug_kill
 execute if items entity @s contents #important run tag @s add core.item.invul

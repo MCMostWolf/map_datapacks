@@ -4,6 +4,9 @@ function minecraft:scoreboard
 #单独
 function effects:_load
 function area:_load
+team add nightmare
+team modify nightmare friendlyFire false
+team modify nightmare color dark_purple
 #加载区块
 function minecraft:forceload
 ##Debug

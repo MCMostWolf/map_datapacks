@@ -11,3 +11,4 @@ function creature:_creature/hostial/_load
 #名称
 data merge entity @s {CustomNameVisible:0b,CustomName:[{\
 "translate":"creature.hostial.dead_mite.name","color":"#17002f","shadow_color":-9043746}]}
+team join nightmare

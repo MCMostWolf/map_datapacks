@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "prop.tear_of_courage.name"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+                "function": "minecraft:set_custom_data",
+                "tag":{
+                    "tower_stone": true,
+                    "id": "tear_of_courage"
+                }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "minecraft:ghast_tear",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+            "function": "minecraft:set_lore",
+            "lore":[
+                {
+                    "translate": "prop.tear_of_courage.lore"
+                },
+                {
+                    "translate": "prop.lore.as_tower_stone",
+                    "extra": [
+                        {
+                            "translate": "prop.tear_of_courage.lore.1"
+                        }
+                    ]
+                }
+            ],
+            "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

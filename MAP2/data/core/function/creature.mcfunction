@@ -1,1 +1,1 @@
-execute as @e[type=!#noplayerne,tag=!loaded] run loot replace entity @s armor.body loot core:body/_creature
+execute as @e[type=!#noplayerne,tag=!loaded,type=!minecraft:wither] run loot replace entity @s armor.body loot core:body/_creature
