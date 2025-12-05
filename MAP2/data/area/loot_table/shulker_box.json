@@ -1,0 +1,103 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.shulker_box.name",
+                                    "color": "#e2fffc",
+                                    "shadow_color": -10191713
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.shulker_box.lore",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.shulker_box.shulker_box",
+                                        "extra": [
+                                            "\n\n\n",
+                                            {
+                                                "translate": "book.shulker_box.text.1_1"
+                                            },
+                                            "\n\n\n",
+                                            {
+                                                "translate": "book.shulker_box.text.1_2",
+                                                "with": [
+                                                    {
+                                                        "keybind": "key.attack",
+                                                        "color": "aqua",
+                                                        "shadow_color": 1275081088
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "color": "dark_gray",
+                                        "shadow_color": 788529153
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.shulker_box.shulker_box",
+                                        "extra": [
+                                            "\n\n\n",
+                                            {
+                                                "translate": "book.shulker_box.text.2_1",
+                                                "with": [
+                                                    {
+                                                        "keybind": "key.use",
+                                                        "color": "aqua",
+                                                        "shadow_color": 1275081088
+                                                    }
+                                                ]
+                                            },
+                                            "\n\n\n",
+                                            {
+                                                "translate": "book.shulker_box.text.2_2"
+                                            }
+                                        ],
+                                        "color": "dark_gray",
+                                        "shadow_color": 788529153
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:infinity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
