@@ -11,9 +11,11 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "prop.temperance_in_bottle.name"
+                  "translate": "prop.temperance_in_bottle.name",
+                  "color": "#ffdbfe",
+                  "shadow_color": -8956029
                 }
-              ],
+              ],  
               "target": "item_name"
             },
             {
@@ -39,13 +41,18 @@
             "function": "minecraft:set_lore",
             "lore":[
                 {
-                    "translate": "prop.temperance_in_bottle.lore"
+                    "translate": "prop.temperance_in_bottle.lore",
+                    "color": "dark_gray",
+                    "italic": false
                 },
                 {
                     "translate": "prop.lore.as_tower_stone",
+                    "color": "blue",
+                    "italic": false,
                     "extra": [
                         {
-                            "translate": "prop.temperance_in_bottle.lore.1"
+                            "translate": "prop.temperance_in_bottle.lore.1",
+                            "color": "light_purple"      
                         }
                     ]
                 }

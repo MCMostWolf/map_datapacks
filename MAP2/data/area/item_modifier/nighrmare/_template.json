@@ -1,0 +1,36 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:repair_cost": 20,
+            "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:flow"
+            }
+        }
+    },
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "id": "nighrmare",
+            "nightmare_item": true
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "mode": "replace_all",
+        "lore": [
+            {
+                "translate": "armor.nighrmare.lore",
+                "color": "dark_green",
+                "italic": false
+            }
+        ]
+    },
+    {
+        "function": "minecraft:toggle_tooltips",
+        "toggles": {
+            "minecraft:dyed_color": false
+        }
+    }
+]

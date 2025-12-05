@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "weapon.nightmare_sword.name",
+                                    "color": "#17002f",
+                                    "shadow_color": -9043746
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:blocks_attacks": {
+                                    "block_sound": {
+                                        "sound_id": "minecraft:item.trident.hit_ground",
+                                        "range": 1.2
+                                    },
+                                    "block_delay_seconds": 0.5
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "id": "nightmare_sword"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:bane_of_arthropods": 3,
+                                "minecraft:smite": 3,
+                                "minecraft:thorns": 1,
+                                "minecraft:mending": 1,
+                                "minecraft:unbreaking": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "translate": "weapon.nightmare_sword.lore",
+                            "color": "dark_gray",
+                            "italic": false
+                        },
+                        {
+                            "translate": "weapon.nightmare_sword.lore.1",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "replace_all"
+                }
+            ]
+        }
+    ]
+}

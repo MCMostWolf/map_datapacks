@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": [
+                                    {
+                                        "translate": "mounmenta_item.white_wool.name",
+                                        "color": "#ffffff",
+                                        "shadow_color": -6513508
+                                    }
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 10
+                                },
+                                "minecraft:custom_data": {
+                                    "invul": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:white_wool"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/white_wool"
+}

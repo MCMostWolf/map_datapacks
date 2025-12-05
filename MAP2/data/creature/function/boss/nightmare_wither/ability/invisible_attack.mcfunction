@@ -13,7 +13,7 @@ execute if score @s skill_time matches 40..390 run particle minecraft:squid_ink 
 execute if score @s skill_time matches 390 run function creature:boss/nightmare_wither/control/invisible_attack/visible
 #重置
 execute unless score @s skill_time matches 420.. run return fail
-scoreboard players add @s skill_cd 100
-scoreboard players add @s skill_cd2 1
+scoreboard players add @s skill_cd 70
+scoreboard players add @s skill_cd2 2
 effect clear
 function creature:boss/nightmare_wither/control/ability_reset

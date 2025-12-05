@@ -1,0 +1,105 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "book.nightmare_book.name",
+                                    "color": "#b777da",
+                                    "shadow_color": -10735990
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "book.nightmare_book.lore",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                [
+                                    {
+                                        "translate": "book.nightmare_book.nightmare",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.1_1"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.1_2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.1_3"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.1_4"
+                                            }
+                                        ],
+                                        "color": "#b777da",
+                                        "shadow_color": -10735990
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "book.nightmare_book.nightmare",
+                                        "extra": [
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.2_1"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.2_2"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.2_3"
+                                            },
+                                            "\n\n",
+                                            {
+                                                "translate": "book.nightmare_book.text.2_4"
+                                            }
+                                        ],
+                                        "color": "#b777da",
+                                        "shadow_color": -10735990
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:written_book_content": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:infinity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

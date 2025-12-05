@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": [
+            {
+                "translate": "armor.nighrmare.feet",
+                "color": "#a144db",
+                "shadow_color": -12976008
+            }
+        ],
+        "target":"item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:equippable": {
+                "asset_id": "minecraft:netherite",
+                "slot": "feet",
+                "equip_sound": "minecraft:entity.vex.hurt"
+            }
+        }
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "area:nighrmare/_template"
+    }
+]

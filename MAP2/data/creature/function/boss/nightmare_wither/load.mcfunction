@@ -7,7 +7,7 @@ data modify entity @s data.spawnpoint.x set from entity @n[type=minecraft:marker
 data modify entity @s data.spawnpoint.y set from entity @n[type=minecraft:marker,tag=nightmare_wither] Pos.[1]
 data modify entity @s data.spawnpoint.z set from entity @n[type=minecraft:marker,tag=nightmare_wither] Pos.[2]
 #属性
-attribute @s minecraft:max_health base set 400
+attribute @s minecraft:max_health base set 650
 attribute @s minecraft:scale base set 1.4
 #effect give @s minecraft:invisibility infinite 255 true
 function creature:boss/nightmare_wither/render
@@ -21,3 +21,4 @@ tag @s add boss
 data merge entity @s {CustomNameVisible:1b,CustomName:[{\
 "translate":"creature.boss.nightmare_wither.name","color":"#17002f","shadow_color":-9043746}]}
 team join nightmare
+scoreboard players set #withering gamerule 1

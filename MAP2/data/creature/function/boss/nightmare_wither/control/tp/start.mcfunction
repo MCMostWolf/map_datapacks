@@ -13,6 +13,9 @@ execute on passengers run data modify entity @s transformation.scale set value [
 $tp $(x) $(y) $(z)
 execute at @s run tp ~ ~-100 ~
 execute at @s run function creature:boss/nightmare_wither/control/tp/tp
-execute unless predicate condition:chance/chance30 run return fail
-function creature:hostial/little_nightmare/_spawn
-execute if entity @s[tag=phase2] run function creature:hostial/little_nightmare/_spawn
+execute unless predicate condition:chance/chance50 run return fail
+execute at @s positioned ~ ~100 ~ run function tool:quick_cmd/game/spread {num:5,min:2,max:4,float:5}
+
+execute if entity @s[tag=phase2] as @e[distance=0..,type=minecraft:marker,tag=SpreadMarker,limit=3] at @s run return run \
+function area:nightmare_tower/eye/attack/_spawn
+execute as @e[distance=0..,type=minecraft:marker,tag=SpreadMarker,limit=1] at @s run function area:nightmare_tower/eye/attack/_spawn

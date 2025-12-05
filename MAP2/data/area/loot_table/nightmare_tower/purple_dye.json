@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "mounmenta_item.purple_dye.name",
+                                    "color": "#ac71c2",
+                                    "shadow_color": -9749113
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "id": "purple_dye",
+                                "invul": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 10
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "translate": "mounmenta_item.purple_dye.lore",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "replace_all"
+                }
+            ]
+        }
+    ]
+}

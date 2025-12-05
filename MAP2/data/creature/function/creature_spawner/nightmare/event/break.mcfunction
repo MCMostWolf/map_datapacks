@@ -1,4 +1,5 @@
 #被破坏
+execute if score #withering gamerule matches 1 if entity @s[tag=creature_spawner.unbreak] run return run function creature:creature_spawner/nightmare/event/unbreak
 execute unless score #wither gamerule matches 1.. if entity @s[tag=creature_spawner.unbreak] run return run function creature:creature_spawner/nightmare/event/unbreak
 tag @s add creature_spawner.broken
 data merge entity @s {start_interpolation:0,interpolation_duration:2}

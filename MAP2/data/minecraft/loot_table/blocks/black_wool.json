@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": [
+                                    {
+                                        "translate": "mounmenta_item.black_wool.name",
+                                        "color": "#2f2f2f",
+                                        "shadow_color": -16777216
+                                    }
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 10
+                                },
+                                "minecraft:custom_data": {
+                                    "invul": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:black_wool"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/black_wool"
+}

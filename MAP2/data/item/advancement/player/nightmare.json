@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {"nightmare_item": true}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {"function": "item:nightmare"}
+}

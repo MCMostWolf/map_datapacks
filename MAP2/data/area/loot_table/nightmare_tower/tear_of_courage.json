@@ -11,7 +11,9 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "prop.tear_of_courage.name"
+                  "translate": "prop.tear_of_courage.name",
+                  "color": "#b9fff8",
+                  "shadow_color": -10649717
                 }
               ],
               "target": "item_name"
@@ -39,13 +41,18 @@
             "function": "minecraft:set_lore",
             "lore":[
                 {
-                    "translate": "prop.tear_of_courage.lore"
+                    "translate": "prop.tear_of_courage.lore",
+                    "color": "dark_gray",
+                    "italic": false
                 },
                 {
                     "translate": "prop.lore.as_tower_stone",
+                    "color": "blue",
+                    "italic": false,
                     "extra": [
                         {
-                            "translate": "prop.tear_of_courage.lore.1"
+                            "translate": "prop.tear_of_courage.lore.1",
+                            "color": "light_purple"      
                         }
                     ]
                 }

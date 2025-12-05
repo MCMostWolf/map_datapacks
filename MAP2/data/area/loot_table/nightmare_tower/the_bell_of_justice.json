@@ -11,7 +11,9 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "prop.the_bell_of_justice.name"
+                  "translate": "prop.the_bell_of_justice.name",
+                  "color": "#ffc802",
+                  "shadow_color": -6331136
                 }
               ],
               "target": "item_name"
@@ -39,13 +41,18 @@
             "function": "minecraft:set_lore",
             "lore":[
                 {
-                    "translate": "prop.the_bell_of_justice.lore"
+                    "translate": "prop.the_bell_of_justice.lore",
+                    "color": "dark_gray",
+                    "italic": false
                 },
                 {
                     "translate": "prop.lore.as_tower_stone",
+                    "color": "blue",
+                    "italic": false,
                     "extra": [
                         {
-                            "translate": "prop.the_bell_of_justice.lore.1"
+                            "translate": "prop.the_bell_of_justice.lore.1",
+                            "color": "light_purple"      
                         }
                     ]
                 }

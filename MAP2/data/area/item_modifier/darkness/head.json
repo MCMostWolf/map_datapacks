@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": [
+            {
+                "translate": "armor.darkness.head",
+                "color": "#434385",
+                "shadow_color": -15854013
+            }
+        ],
+        "target":"item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:equippable": {
+                "asset_id": "minecraft:leather",
+                "slot": "head",
+                "equip_sound": "minecraft:block.sculk.step"
+            }
+        }
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "area:darkness/_template"
+    }
+]
