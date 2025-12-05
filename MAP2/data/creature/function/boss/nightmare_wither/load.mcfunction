@@ -6,8 +6,10 @@ tag @s add nightmare_wither
 data modify entity @s data.spawnpoint.x set from entity @n[type=minecraft:marker,tag=nightmare_wither] Pos.[0]
 data modify entity @s data.spawnpoint.y set from entity @n[type=minecraft:marker,tag=nightmare_wither] Pos.[1]
 data modify entity @s data.spawnpoint.z set from entity @n[type=minecraft:marker,tag=nightmare_wither] Pos.[2]
+#Music
+function creature:boss/nightmare_wither/music with entity @s data.spawnpoint
 #属性
-attribute @s minecraft:max_health base set 650
+attribute @s minecraft:max_health base set 800
 attribute @s minecraft:scale base set 1.4
 #effect give @s minecraft:invisibility infinite 255 true
 function creature:boss/nightmare_wither/render

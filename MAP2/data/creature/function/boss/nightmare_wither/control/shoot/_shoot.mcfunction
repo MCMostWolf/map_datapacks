@@ -1,5 +1,7 @@
 tag @s add loaded
-execute if predicate condition:chance/chance50 run return run \
+execute if entity @s[tag=!phase2] if predicate condition:chance/chance50 run return run \
+kill @s
+execute if entity @s[tag=phase2] if predicate condition:chance/chance20 run return run \
 kill @s
 execute if entity @e[distance=0.01..15,type=minecraft:wither_skull] run return run \
 kill @s

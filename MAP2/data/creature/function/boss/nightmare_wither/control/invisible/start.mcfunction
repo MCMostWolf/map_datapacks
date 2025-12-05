@@ -1,3 +1,4 @@
+
 data modify entity @s NoAI set value 1b
 tag @s add no_ai
 tag @s add unmove
@@ -17,3 +18,8 @@ execute positioned ~ ~0.5 ~ run function effects:particle/circle/squid_ink/mini_
 function creature:hostial/little_nightmare/_spawn
 function creature:hostial/little_nightmare/_spawn
 function creature:hostial/little_nightmare/_spawn
+
+execute if entity @s[tag=!phase2_started] run playsound minecraft:entity.ender_dragon.growl hostile @a ~ ~ ~ 0.65 2
+playsound minecraft:entity.wither.hurt hostile @a ~ ~ ~ 1 1.2
+playsound minecraft:entity.wither.hurt hostile @a ~ ~ ~ 1 0.7
+playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 0.2 1.2

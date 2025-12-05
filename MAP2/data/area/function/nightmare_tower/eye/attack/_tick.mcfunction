@@ -17,5 +17,5 @@ run setblock ~ ~ ~ minecraft:air destroy
 execute positioned ~-2.5 ~-2 ~-2.5 as @e[dz=4,dy=3,dx=4,type=item_display,tag=creature_spawner.unbreak] at @s \
 run tag @s remove creature_spawner.unbreak
 execute positioned ~-2.5 ~-2 ~-2.5 as @e[dz=4,dy=3,dx=4,type=!#none,type=!minecraft:wither] \
-run damage @s 7 minecraft:explosion
+run damage @s 8 minecraft:magic
 kill @s
