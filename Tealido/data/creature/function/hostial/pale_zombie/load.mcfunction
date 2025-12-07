@@ -3,6 +3,7 @@ data modify entity @s data.creature_id set value "pale_zombie"
 #属性
 attribute @s minecraft:max_health base set 17
 attribute @s minecraft:scale base set 1
+attribute @s minecraft:attack_damage base set 10
 #effect give @s minecraft:invisibility infinite 255 true
 #装备
 item replace entity @s weapon.offhand with minecraft:dried_kelp[minecraft:custom_model_data={strings:[\

@@ -2,7 +2,7 @@
 data modify entity @s data.creature_id set value "horror_creeper"
 tag @s add horror_creeper
 #属性
-attribute @s minecraft:max_health base set 15
+attribute @s minecraft:max_health base set 20
 attribute @s minecraft:movement_speed base set 0.2
 effect give @s minecraft:invisibility 1 9 true
 #爆炸记录

@@ -9,8 +9,8 @@ data modify entity @s data.spawnpoint.z set from entity @n[type=minecraft:marker
 #Music
 function creature:boss/nightmare_wither/music with entity @s data.spawnpoint
 #属性
-attribute @s minecraft:max_health base set 650
-execute if score #difficulty gamerule matches 3 run attribute @s minecraft:max_health base set 800
+attribute @s minecraft:max_health base set 750
+execute if score #difficulty gamerule matches 3 run attribute @s minecraft:max_health base set 900
 attribute @s minecraft:scale base set 1.4
 #effect give @s minecraft:invisibility infinite 255 true
 function creature:boss/nightmare_wither/render

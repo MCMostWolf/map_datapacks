@@ -22,4 +22,4 @@ align xyz positioned ~0.5 ~1 ~0.5 run function area:monu/blue
 execute unless score #black gamerule matches 1 positioned -176 126 139 if block ~ ~ ~ minecraft:black_wool \
 align xyz positioned ~0.5 ~1 ~0.5 run function area:monu/black
 execute unless score #monu_title gamerule matches -2147483648..2147483647 run scoreboard players set #monu_title gamerule -30
-execute if score #monu gamerule matches 5.. run function area:monu/finish
+execute if score #monu gamerule matches 5.. positioned -173 128 133 run function area:monu/finish
