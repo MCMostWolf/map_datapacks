@@ -3,8 +3,8 @@ data modify entity @s data.creature_id set value "silent_archer"
 tag @s add silent_archer
 #属性
 
-attribute @s minecraft:max_health base set 18
-execute if score #withering gamerule matches 1 run attribute @s minecraft:max_health base set 13
+attribute @s minecraft:movement_speed base set 0.23
+attribute @s minecraft:max_health base set 15
 attribute @s minecraft:scale base set 0.9
 #武器
 item replace entity @s weapon.mainhand with minecraft:bow[minecraft:charged_projectiles=[{id:"acacia_boat"}],minecraft:item_model="crossbow",\
