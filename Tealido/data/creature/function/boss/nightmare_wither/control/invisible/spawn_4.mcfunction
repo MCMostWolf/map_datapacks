@@ -1,6 +1,6 @@
 function creature:boss/nightmare_wither/control/invisible/spawn
 
-execute positioned ~ ~100 ~ run function tool:quick_cmd/game/spread {num:3,min:5,max:8,float:5}
+execute positioned ~ ~100 ~ run function tool:quick_cmd/game/spread {num:4,min:5,max:8,float:5}
 
 data modify storage minecraft:tool creature_spawner merge value {spawn_range:100,active_range:5,max_spawner_cd:500,min_spawner_cd:400,\
 spawn_count:3,spawn_creature_count:5,spawn_creature_id:"dead_mite",creature_spawner_type:"vanilla"}

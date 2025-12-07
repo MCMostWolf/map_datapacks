@@ -4,7 +4,7 @@ execute at @s run particle minecraft:flash{color:-11075430} ~ ~ ~ 0 0 0 0.2 1 fo
 #execute at @s run particle minecraft:explosion_emitter ~ ~ ~ 0.5 0.5 0.5 0.2 2 force
 execute positioned ~ ~0.3 ~ run function effects:particle/circle/squid_ink/normal_out_1
 execute positioned ~ ~0.7 ~ run function effects:particle/circle/squid_ink/normal_out_2
-execute positioned -265.5 173.5 156.5 run kill @e[distance=0..1,type=minecraft:item_display,tag=nightmare_tower_eye]
+#execute positioned -265.5 173.5 156.5 run kill @e[distance=0..1,type=minecraft:item_display,tag=nightmare_tower_eye]
 scoreboard players reset #withering gamerule
 loot spawn ~ ~ ~ loot area:nightmare_tower/hope_fruit
 stopsound @a[distance=..20] record

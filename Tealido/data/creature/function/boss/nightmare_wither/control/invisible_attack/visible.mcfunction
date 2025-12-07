@@ -1,6 +1,7 @@
 execute if entity @s[tag=!phase2] on passengers run item replace entity @s contents with \
 minecraft:ender_pearl[minecraft:enchantment_glint_override=1b]
 attribute @s minecraft:scale modifier remove minecraft:skill
+data modify entity @s Invulnerable set value 0b
 playsound minecraft:block.ender_chest.open hostile @a ~ ~ ~ 1 1.6
 execute on passengers run data modify entity @s transformation.scale set value [1.5,1.5,1.5]
 execute on passengers run data modify entity @s transformation.translation set value [0,-2,-2.3]

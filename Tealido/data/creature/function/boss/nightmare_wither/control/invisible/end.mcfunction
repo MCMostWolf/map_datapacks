@@ -1,4 +1,5 @@
 
+data modify entity @s Invulnerable set value 0b
 tp ~ ~100 ~
 tag @s remove invisible
 tag @s remove silent

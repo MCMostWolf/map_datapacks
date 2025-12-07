@@ -1,5 +1,6 @@
 
 data modify entity @s NoAI set value 1b
+data modify entity @s Invulnerable set value 1b
 tag @s add no_ai
 tag @s add unmove
 tag @s add silent

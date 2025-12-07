@@ -1,6 +1,7 @@
 scoreboard players reset @s skill_time
 scoreboard players reset @s skill
 data modify entity @s NoAI set value 0b
+data modify entity @s Invulnerable set value 0b
 tag @s remove silent
 tag @s remove no_ai
 tag @s remove unmove
