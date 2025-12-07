@@ -2,7 +2,8 @@
 data modify entity @s data.creature_id set value "invisible_spider"
 tag @s add invisible_spider
 #属性
-attribute @s minecraft:max_health base set 24
+attribute @s minecraft:max_health base set 30
+execute if score #withering gamerule matches 1 run attribute @s minecraft:max_health base set 20
 attribute @s minecraft:attack_damage base set 10
 attribute @s minecraft:scale base set 1.5
 effect give @s minecraft:invisibility infinite 9 true
