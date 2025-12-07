@@ -1,4 +1,5 @@
 #execute unless function condition:entity_stats/attacker_with_bypasses_invul run scoreboard players set @s invul 10
+data remove storage temp creature_id
 data modify storage temp creature_id set from entity @s[type=!#minecraft:noplayerne] data.creature_id
 tag @s add creature.hurt
 execute if entity @s[type=!#minecraft:noplayerne] run function core:creature/hurt/_event with storage temp

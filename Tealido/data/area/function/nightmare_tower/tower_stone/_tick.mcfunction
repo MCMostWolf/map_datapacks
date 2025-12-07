@@ -8,6 +8,7 @@ execute if items entity @s contents *[custom_data~{"id":"the_bell_of_justice"}] 
 #加载
 execute if entity @s[tag=loaded] run return fail
 data modify entity @s Invulnerable set value 1b
+data modify entity @s Fixed set value 1b
 execute if items entity @s contents *[custom_data~{"id":"tear_of_courage"}] run scoreboard players set #tear_of_courage gamerule 1
 execute if items entity @s contents *[custom_data~{"id":"temperance_in_bottle"}] run scoreboard players set #temperance_in_bottle gamerule 1
 execute if items entity @s contents *[custom_data~{"id":"the_bell_of_justice"}] run scoreboard players set #the_bell_of_justice gamerule 1
